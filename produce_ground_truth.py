@@ -11,7 +11,7 @@ def get_image_urls(image_id: str) -> tuple[str, str]:
 
 def process_image(image_id: str) -> dict:
     result = subprocess.run(
-        ["python3", "process_images.py", "claude3.5", image_id, "prompt.md"],
+        ["python3", "process_images.py", "claude3.5", image_id, "prompt.txt"],
         capture_output=True,
         text=True
     )
