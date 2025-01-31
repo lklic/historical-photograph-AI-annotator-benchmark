@@ -1,0 +1,52 @@
+{
+  "photo_id": "32044156028946",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Adamo ed Eva",
+        "artist": "Tintoretto",
+        "repository": {
+          "name": "The National Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CA"
+        }
+      },
+      "back": {
+        "title": "Adam & Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true
+        },
+        "repository": {
+          "name": "Nat. Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CA",
+          "identifier": "n\u00ba3364",
+          "stamp": "THE NATIONAL GALLERY OF CANADA"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "Venetian Art, New Gallery, 1895, London"
+        ],
+        "attribution": [
+          "Crawshay purchase supposed"
+        ]
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": [
+        "N.P.B Canada",
+        "I xxxvi"
+      ]
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 245,
+  "total_tokens": 2800,
+  "cost": 0.0088375,
+  "status": "OK",
+  "request_time": 9
+}

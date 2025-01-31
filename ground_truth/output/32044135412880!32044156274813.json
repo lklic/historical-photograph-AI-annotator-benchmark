@@ -1,0 +1,28 @@
+{
+  "artwork": {
+    "front": {
+      "title": "Pesche e Pere che si coltivavano a Castello",
+      "date": "XVIII secolo",
+      "repository": {
+        "name": "Villa Reale di Castello",
+        "city": "Firenze",
+        "country": "ITA"
+      },
+      "full_text": "(Ed.*Alinari) N.\u00b030523. FIRENZE - Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+    },
+    "back": {
+      "repository": {
+        "name": "Villa di Castello",
+        "city": "Florence",
+        "country": "ITA"
+      }
+    }
+  },
+  "photograph": {
+    "front": {
+      "photographer": {
+        "alinari_id": "30523"
+      }
+    }
+  }
+}

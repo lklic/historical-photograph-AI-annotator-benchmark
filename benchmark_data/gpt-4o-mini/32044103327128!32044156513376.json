@@ -1,0 +1,107 @@
+{
+  "photo_id": "32044156513376",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Predella: Adoration of the Magi",
+        "artist": "Francia",
+        "date": "1499",
+        "inscriptions": "L.N. REMTIVS COSTA",
+        "repository": {
+          "name": "Church of the Misericordia",
+          "city": "Bologna",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials": "",
+        "full_text": ""
+      },
+      "back": {
+        "title": "",
+        "addtional_title": "",
+        "artist": {
+          "name": "Francia",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1499",
+        "dimensions": {
+          "artwork": {
+            "original": "Panel cm. 67 x 179",
+            "cm": "67cm x 179cm"
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Brera",
+          "city": "Milan",
+          "state": "MI",
+          "country": "IT",
+          "identifier": "429",
+          "stamp": "",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [
+          "exh. Ferrara 1933 n. 170"
+        ],
+        "provenance": [
+          "prov. Predella panel to the Nativity by Fr. Francia, painted for the Church of the Misericordia in Bologna."
+        ],
+        "literature": [
+          "lit. Listed Costa sd.d. 1499"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 560,
+  "total_tokens": 3115,
+  "cost": 0.014384999999999998,
+  "status": "OK",
+  "request_time": 15
+}

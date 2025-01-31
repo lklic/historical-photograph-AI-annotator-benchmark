@@ -1,0 +1,79 @@
+{
+  "photo_id": "32044156513368",
+  "model": "o1",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Portrait of Eleonora Gonzaga, duchess of Urbino (?)",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": false,
+          "additional_annotations": ""
+        },
+        "materials": "Oil on canvas (transferred from wood)",
+        "dimensions": {
+          "artwork": {
+            "original": "17 1/4\" x 13 1/4\"",
+            "cm": "43.8cm x 33.7cm"
+          },
+          "frame": {
+            "original": "27\" x 23\"",
+            "cm": "68.6cm x 58.4cm"
+          }
+        },
+        "repository": {
+          "name": "The Currier Gallery of Art",
+          "city": "Manchester",
+          "state": "NH",
+          "country": "US",
+          "stamp": "PLEASE RETURN TO The Currier Gallery of Art 192 Orange Street Manchester, N.H."
+        }
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "Private Collection, Milano",
+          "Thomas W. Blumenthal Frankfurt/M 1927",
+          "Kleinberger's Gal. N.Y. 1927",
+          "J.S. Bache Collection N.Y. 1927-1945",
+          "Nicholas M. Grueber? 1945-1947",
+          "The Currier Gallery of Art 1947"
+        ],
+        "literature": [
+          "A. Venturi St. A. ??? VII (3) p.814 (1914)",
+          "Pantheon 1928 Janv-June p.237",
+          "G. Comani ??? ???",
+          "Publications of the Hermitage: Westner??? (II-1931) p.198"
+        ],
+        "loans": [],
+        "attribution": [
+          "M-1930 listed Lorenzo Costa"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "PHOTO Manchester, N.H.",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": [
+        "cp with Hampton-court - 355 (295) [232]"
+      ]
+    }
+  },
+  "input_tokens": 2324,
+  "output_tokens": 6840,
+  "total_tokens": 9164,
+  "cost": 0.44526,
+  "status": "OK",
+  "request_time": 79
+}

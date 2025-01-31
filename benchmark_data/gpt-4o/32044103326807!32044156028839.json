@@ -1,0 +1,55 @@
+{
+  "photo_id": "32044156028839",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Tintoretto's Servant",
+        "artist": {
+          "name": "J. Tintoretto",
+          "listed": true
+        },
+        "dimensions": {
+          "canvas": {
+            "original": "42 1/2\" x 35\"",
+            "cm": "107.95cm x 88.9cm"
+          }
+        },
+        "repository": {
+          "name": "Nat. Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CA",
+          "identifier": "3453"
+        }
+      },
+      "history": {
+        "provenance": [
+          "J. Brass, Venice",
+          "Acquired by the Nat. Gall. of Canada 1927"
+        ],
+        "exhibitions": [
+          "R.A. London 1930 no. 438"
+        ],
+        "literature": [
+          "Hubbard - European Paintings in Canadian Colls. p. 16"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "A.C. Cooper",
+          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES', S.W.1. GERRARD 2891",
+          "anderson_id": "37181"
+        },
+        "yellow_dot": true
+      }
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 322,
+  "total_tokens": 2877,
+  "cost": 0.0096075,
+  "status": "OK",
+  "request_time": 14
+}

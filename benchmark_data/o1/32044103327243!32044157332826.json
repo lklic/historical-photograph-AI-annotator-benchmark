@@ -1,0 +1,76 @@
+{
+  "photo_id": "32044157332826",
+  "model": "o1",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Piatti di M. Giorgia",
+        "date": "1532",
+        "inscriptions": "15-32 MP (unreadable text)",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "state": "",
+          "country": "IT"
+        },
+        "full_text": "92618. Museo Civico. Piatti di M. Giorgia, Fotog dell'Emilio Bologna"
+      },
+      "back": {
+        "title": "The birth of Adonis",
+        "artist": {
+          "name": "Timoteo Viti",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1532",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "state": "",
+          "country": "IT"
+        }
+      },
+      "identifiers": {},
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Emilio Bologna",
+          "identifier": "92618",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": [
+        "Trivol\u00f2"
+      ]
+    }
+  },
+  "input_tokens": 2324,
+  "output_tokens": 5463,
+  "total_tokens": 7787,
+  "cost": 0.36264,
+  "status": "OK",
+  "request_time": 66
+}

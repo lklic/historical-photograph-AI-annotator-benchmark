@@ -1,0 +1,41 @@
+{
+  "photo_id": "32044156274813",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Pesche e Pere che si coltivavano a Castello",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "FIRENZE",
+          "country": "IT"
+        },
+        "full_text": "N\u00b0 30523. FIRENZE \u2013 Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "alinari_id": "30523"
+        }
+      },
+      "back": {
+        "photographer": {
+          "stamp": "FOTOTECA BERENSON,"
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Frutteti di Castello",
+        "Villa di Castello FLORENCE (Environs)"
+      ]
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 229,
+  "total_tokens": 2784,
+  "cost": 0.0086775,
+  "status": "OK",
+  "request_time": 10
+}

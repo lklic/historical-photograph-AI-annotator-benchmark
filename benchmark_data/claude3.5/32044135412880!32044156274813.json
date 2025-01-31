@@ -1,0 +1,36 @@
+{
+  "photo_id": "32044156274813",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "Firenze",
+          "country": "ITA"
+        }
+      },
+      "back": {
+        "repository": {
+          "name": "Villa di Castello",
+          "city": "Florence",
+          "country": "ITA"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "alinari_id": "30523"
+        }
+      }
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 192,
+  "total_tokens": 4096,
+  "cost": 0.014592,
+  "status": "OK",
+  "request_time": 6
+}

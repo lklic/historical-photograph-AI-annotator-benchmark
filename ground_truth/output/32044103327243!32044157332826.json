@@ -1,0 +1,32 @@
+{
+  "artwork": {
+    "front": {
+      "inscriptions": "15-32",
+      "repository": {
+        "name": "Museo Civico",
+        "city": "Bologna",
+        "country": "ITA"
+      }
+    },
+    "back": {
+      "title": "The birth of Adonis",
+      "artist": {
+        "name": "Timoteo Viti",
+        "listed": true,
+        "additional_annotations": "listed on design of"
+      },
+      "repository": {
+        "name": "Museo Civico",
+        "city": "Bologna",
+        "country": "ITA"
+      }
+    }
+  },
+  "photograph": {
+    "front": {
+      "photographer": {
+        "alinari_id": "28618"
+      }
+    }
+  }
+}

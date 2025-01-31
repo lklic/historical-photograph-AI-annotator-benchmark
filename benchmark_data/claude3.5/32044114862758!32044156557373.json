@@ -1,0 +1,67 @@
+{
+  "photo_id": "32044156557373",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "St. John the Baptist & St. Catherine of Alexandria",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": true
+        },
+        "dimensions": {
+          "panel": {
+            "original": "30\" x 19 1/4\"",
+            "cm": "76.2cm x 48.9cm"
+          }
+        },
+        "repository": {
+          "name": "Art Institute",
+          "city": "CHICAGO",
+          "state": "IL",
+          "country": "USA",
+          "identifier": "47.116",
+          "gift": "Worcester Gift"
+        },
+        "materials": "tempera on panel"
+      },
+      "history": {
+        "exhibitions": [
+          "Chicago (ILL.), Art Institute, 1930-37",
+          "June 1 - Nov. 1, 1933, n\u00b0 87, cat.",
+          "June 1 - Nov. 1, 1934, n\u00b0 35, cat."
+        ],
+        "provenance": [
+          "Grimaldi Coll. Venezia",
+          "Roerich Museum, New York",
+          "Roerich Sale, New York, 1930, March 28",
+          "Mr. & Mrs. Worcester"
+        ],
+        "literature": [
+          "Roerich Sale Cat., T.J. Matthew Jr. (School of Lorenzo Veneziano)",
+          "Venezia (Paolo Veneziano & his sons)"
+        ],
+        "loans": [
+          "MR. AND MRS. C. H. WORCESTER COLLECTION"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "identifier": "C9981",
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Companion panel 'St. Augustine & St. Peter' was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox Swedish, on loan at the Art Institute of Chicago"
+      ]
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 518,
+  "total_tokens": 4422,
+  "cost": 0.019482,
+  "status": "OK",
+  "request_time": 12
+}

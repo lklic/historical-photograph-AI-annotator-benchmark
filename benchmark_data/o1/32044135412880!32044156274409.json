@@ -1,0 +1,92 @@
+{
+  "photo_id": "32044156274409",
+  "model": "o1",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "artist": "Pietro Facini",
+        "inscriptions": "Pietro Facini"
+      },
+      "back": {
+        "title": "Madonna & St Anthony",
+        "addtional_title": "Madonna appearing to St Anthony",
+        "artist": {
+          "name": "Pietro Facini",
+          "listed": false,
+          "additional_annotations": ""
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "12\u00bd x 9\u00be in",
+            "cm": "31 x 24.7"
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "US",
+          "identifier": "1932.263",
+          "stamp": "Fogg Art Museum Harvard University",
+          "gift": "Charles A. Loeser Bequest"
+        },
+        "materials": "Pen & ink over red crayon"
+      },
+      "identifiers": {},
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "Lele Call. (L.2012)"
+        ],
+        "literature": [
+          "Mondan-Sachs cat. n.84"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2324,
+  "output_tokens": 3816,
+  "total_tokens": 6140,
+  "cost": 0.26382,
+  "status": "OK",
+  "request_time": 43
+}

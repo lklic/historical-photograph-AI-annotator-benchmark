@@ -1,0 +1,53 @@
+{
+  "photo_id": "32044156274409",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": "Pietro Facini",
+        "full_text": "39"
+      },
+      "back": {
+        "title": "Madonna appearing to St Anthony",
+        "artist": {
+          "name": "Pietro Facini",
+          "listed": false
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "12 1/4\" x 9 3/4\"",
+            "cm": "31cm x 24.7cm"
+          }
+        },
+        "materials": "Pen & Ink over red crayon"
+      },
+      "history": {
+        "provenance": [
+          "Lele Coll. (L. 2092)"
+        ],
+        "literature": [
+          "Mondan-Sachs cat. n.84"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "stamp": "Fogg Art Museum Harvard University",
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "P. Facini Madonna appearing to St Anthony",
+        "Charles A. Loeser Bequest 1932.263",
+        "Fogg Art Museum CAMBRIDGE (Mass.)"
+      ]
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 281,
+  "total_tokens": 2836,
+  "cost": 0.0091975,
+  "status": "OK",
+  "request_time": 16
+}

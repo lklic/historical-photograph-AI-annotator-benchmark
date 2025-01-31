@@ -1,0 +1,46 @@
+{
+  "artwork": {
+    "back": {
+      "title": "ST. PAUL",
+      "additional_title": "St Paul pointing to Heaven in landscape",
+      "artist": {
+        "name": "LORENZO COSTA",
+        "additional_annotations": "Ferrarese, 1460-1535"
+      },
+      "dimensions": {
+        "panel": {
+          "original": "15 1/2\" x 10 3/8\"",
+          "cm": "39.3cm x 26.3cm"
+        }
+      },
+      "repository": {
+        "name": "Chiesa Collection",
+        "city": "Milan",
+        "country": "ITA"
+      }
+    },
+    "identifiers": {
+      "kress": "K466"
+    },
+    "history": {
+      "provenance": [
+        "Prov. D. Botto Milan as Bocaccino",
+        "From the Chiesa Collection, Milan",
+        "S.H. Kress 1936 (K466)",
+        "N.G.A. Washington D.C. n.364"
+      ],
+      "attribution": [
+        "Longf (b Ferrara p.145) intorno al 1510-15"
+      ]
+    }
+  },
+  "photograph": {
+    "back": {
+      "photographer": {
+        "name": "MURRAY K. KEYES",
+        "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS MEMPHIS TENN."
+      },
+      "yellow_dot": true
+    }
+  }
+}

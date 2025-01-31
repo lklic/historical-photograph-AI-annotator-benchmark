@@ -1,0 +1,55 @@
+{
+  "artwork": {
+    "back": {
+      "title": "St. John the Baptist & St. Catherine of Alexandria",
+      "artist": {
+        "name": "Paolo Veneziano",
+        "listed": true
+      },
+      "dimensions": {
+        "panel": {
+          "original": "30\" x 19 1/4\"",
+          "cm": "76.2cm x 48.9cm"
+        }
+      },
+      "repository": {
+        "name": "Art Institute",
+        "city": "CHICAGO",
+        "state": "IL",
+        "country": "USA"
+      },
+      "materials": "tempera on panel"
+    },
+    "history": {
+      "provenance": [
+        "Grimaldi Coll Venezia",
+        "Roerich Museum, New York",
+        "Roerich Sale, New York, 1930, March 28",
+        "Mr. & Mrs. Worcester"
+      ],
+      "exhibitions": [
+        "Chicago [ILL], Art Institute, 1930-37",
+        "June 1 - Nov. 1, 1933, no. 87, cat.",
+        "June 1 - Nov. 1, 1934, no. 35, cat."
+      ],
+      "literature": [
+        "Roerich Sale Cat., T.J. Mathay Jr. (School of Lorenzo Veneziano)",
+        "Venezia (Paolo Veneziano & his Sons)"
+      ],
+      "loans": [
+        "MR. AND MRS. C. H. WORCESTER COLLECTION"
+      ]
+    }
+  },
+  "photograph": {
+    "back": {
+      "yellow_dot": true
+    }
+  },
+  "additional_annotations": {
+    "back": [
+      "Companion panel 'St. Augustine & St. Peter' was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox. Swedish, on loan at the Art Institute of Chicago",
+      "Worcester Gift Art Institute CHICAGO (Ill.)"
+    ]
+  }
+}

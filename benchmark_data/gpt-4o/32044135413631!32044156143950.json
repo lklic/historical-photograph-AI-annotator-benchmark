@@ -1,0 +1,33 @@
+{
+  "photo_id": "32044156143950",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "dimensions": {
+          "artwork": {
+            "original": "c. 268r"
+          }
+        },
+        "repository": {
+          "name": "Bibl. Palatina",
+          "city": "Parma",
+          "country": "IT",
+          "gift": "Gift of L. Corti"
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Cod. Palat. 5",
+        "X c."
+      ]
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 119,
+  "total_tokens": 2674,
+  "cost": 0.0075775,
+  "status": "OK",
+  "request_time": 609
+}

@@ -1,0 +1,88 @@
+{
+  "photo_id": "32044156028946",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Adamo ed Eva",
+        "artist": "Tintoretto",
+        "date": "1550-1560",
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CA",
+          "identifier": "2364"
+        },
+        "materials": "",
+        "full_text": ""
+      },
+      "back": {
+        "title": "Adam and Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1895",
+        "dimensions": {
+          "artwork": {
+            "original": "I xxvi",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "state": "ON",
+          "country": "CA",
+          "identifier": "2364",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [
+          "exh. 'Venetian Art' at New Gallery, 1895"
+        ],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "identifier": "",
+          "alinari_id": "X",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "FOTOTECA BERENSON FIRENZE I TATTI SETTIGNANO",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 460,
+  "total_tokens": 3015,
+  "cost": 0.013185,
+  "status": "OK",
+  "request_time": 15
+}

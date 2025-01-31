@@ -1,0 +1,106 @@
+{
+  "photo_id": "32044156513475",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "ST. PAUL",
+        "artist": "LORENZO COSTA",
+        "date": "1460-1535",
+        "inscriptions": "St Paul pointing to Heaven in landscape",
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "Memphis",
+          "state": "TN",
+          "country": "US",
+          "identifier": "n. 364"
+        },
+        "materials": "oil on panel",
+        "full_text": ""
+      },
+      "back": {
+        "title": "ST. PAUL",
+        "addtional_title": "",
+        "artist": {
+          "name": "LORENZO COSTA",
+          "listed": true,
+          "additional_annotations": "Ferrarese, 1460-1535"
+        },
+        "date": "1460-1535",
+        "dimensions": {
+          "artwork": {
+            "original": "Panel 13 5/8\" x 10 1/2\"",
+            "cm": "34.3 x 26.7"
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "Frame 16-7/8\" x 13-5/8\"",
+            "cm": "42.9 x 34.6"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "Memphis",
+          "state": "TN",
+          "country": "US",
+          "identifier": "",
+          "stamp": "",
+          "gift": "Kress Gift 1958"
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "Prov: D. Botto, Milan as Boccacino"
+        ],
+        "literature": [
+          "S.H. Kress 1936 (K466) n. 364"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Murray K. Keyes",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "Murray K. Keyes",
+          "identifier": "",
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 650,
+  "total_tokens": 3205,
+  "cost": 0.015465,
+  "status": "OK",
+  "request_time": 15
+}

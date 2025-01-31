@@ -1,0 +1,71 @@
+{
+  "photo_id": "32044156582488",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \"L'Annunzazione e un Santo\".",
+        "artist": "Paolo Schiavo",
+        "date": "XV secolo",
+        "repository": {
+          "name": "Church of San Pio X",
+          "city": "Castello",
+          "country": "ITA",
+          "identifier": ""
+        },
+        "full_text": ""
+      },
+      "back": {
+        "additional_title": "Annunciation with Julian and Ansanus",
+        "artist": {
+          "name": "Paolo Selvius",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "repository": {
+          "name": "Biblioteca Berenson",
+          "city": "FIRENZE",
+          "state": "FI",
+          "country": "ITA",
+          "stamp": "",
+          "gift": ""
+        }
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "alinari_id": "29209"
+        }
+      },
+      "back": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "alinari_id": "29209"
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 376,
+  "total_tokens": 2931,
+  "cost": 0.012177,
+  "status": "OK",
+  "request_time": 12
+}

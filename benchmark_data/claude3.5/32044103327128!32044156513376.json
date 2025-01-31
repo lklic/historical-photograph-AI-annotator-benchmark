@@ -1,0 +1,48 @@
+{
+  "photo_id": "32044156513376",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Predella panel to the Nativity",
+        "additional_title": "Adoration of Magi",
+        "artist": {
+          "name": "Costa",
+          "listed": true,
+          "additional_annotations": "Laurentius Costa 1499"
+        },
+        "date": "1499",
+        "dimensions": {
+          "panel": {
+            "original": "67 x 179",
+            "cm": "67cm x 179cm"
+          }
+        },
+        "repository": {
+          "name": "Brera",
+          "city": "Milan",
+          "country": "ITA"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "Ferrara 1933 n. 170"
+        ],
+        "provenance": [
+          "Painted for the church of the Misericordia in Bologna"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 260,
+  "total_tokens": 4164,
+  "cost": 0.015612000000000001,
+  "status": "OK",
+  "request_time": 7
+}

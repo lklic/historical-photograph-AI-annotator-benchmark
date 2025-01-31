@@ -1,0 +1,94 @@
+{
+  "photo_id": "32044156028839",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Tintoretto's Servant",
+        "artist": "Tintoretto",
+        "date": "1545",
+        "repository": {
+          "name": "The National Gallery of Canada",
+          "city": "Ottawa",
+          "state": "ON",
+          "country": "CA",
+          "identifier": "3453"
+        },
+        "materials": "Canvas",
+        "full_text": "Canvas 42 1/4\" x 35\""
+      },
+      "back": {
+        "title": "Tintoretto's Servant",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1545",
+        "dimensions": {
+          "artwork": {
+            "original": "Canvas 42 1/4\" x 35\"",
+            "cm": "107.32 x 88.90"
+          }
+        },
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "state": "ON",
+          "country": "CA",
+          "identifier": "3453",
+          "stamp": "A. C. COOPER Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES' S.W.1, GERRARD 2891",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [
+          "exh. R.A. London 1930 no. 438"
+        ],
+        "provenance": [
+          "prov. Brass, Venice"
+        ],
+        "literature": [
+          "lit. Hubbard - European Paintings in Canadian Cells, p. 16"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "A. C. Cooper",
+          "identifier": "37181",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
+      "rotation": null
+    },
+    "back": {
+      "photographer": {
+        "name": "A. C. Cooper",
+        "identifier": "37181",
+        "stamp": "A. C. COOPER Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES' S.W.1, GERRARD 2891",
+        "alinari_id": "",
+        "anderson_id": ""
+      },
+      "yellow_dot": true
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 597,
+  "total_tokens": 3152,
+  "cost": 0.014829,
+  "status": "OK",
+  "request_time": 14
+}

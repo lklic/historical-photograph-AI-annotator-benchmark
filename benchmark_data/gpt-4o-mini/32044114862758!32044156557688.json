@@ -1,0 +1,102 @@
+{
+  "photo_id": "32044156557688",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Oratorio di S. Martino",
+        "artist": "Maestro Paolo da Venezia",
+        "date": "1349",
+        "inscriptions": "",
+        "repository": {
+          "name": "Oratorio di S. Martino",
+          "city": "Chioggia",
+          "state": "",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials": "",
+        "full_text": "Particolare del quadro all'altare maggiore."
+      },
+      "back": {
+        "title": "Listed",
+        "addtional_title": "Scenes from Life of St Martin (detail of polyptych)",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1349",
+        "dimensions": {
+          "artwork": {
+            "original": "",
+            "cm": ""
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Oratorio di S. Martino",
+          "city": "Chioggia",
+          "state": "",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "identifier": "",
+          "alinari_id": "20845",
+          "anderson_id": ""
+        }
+      },
+      "rotation": null
+    },
+    "back": {
+      "photographer": {
+        "name": "Ed. Alinari",
+        "identifier": "3 2044 156 557 688",
+        "stamp": "FOTOTECA BERENSON VILLA I TATTI FIRENZE",
+        "alinari_id": "20845",
+        "anderson_id": ""
+      },
+      "yellow_dot": true
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 553,
+  "total_tokens": 3108,
+  "cost": 0.014301,
+  "status": "OK",
+  "request_time": 20
+}

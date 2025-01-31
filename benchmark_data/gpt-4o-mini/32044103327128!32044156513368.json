@@ -1,0 +1,113 @@
+{
+  "photo_id": "32044156513368",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Ritratto di Eleonora Gonzaga duchessa di Urbino",
+        "artist": "Lorenzo Costa",
+        "date": "1505",
+        "inscriptions": "",
+        "repository": {
+          "name": "Currier Gallery of Art",
+          "city": "Manchester",
+          "state": "NH",
+          "country": "US",
+          "identifier": "M-1930"
+        },
+        "materials": "oil on canvas",
+        "full_text": ""
+      },
+      "back": {
+        "title": "Portrait of Eleonora Gonzaga, duchess of Urbino",
+        "addtional_title": "",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true,
+          "additional_annotations": ""
+        },
+        "date": "1505",
+        "dimensions": {
+          "artwork": {
+            "original": "27\" x 23\"",
+            "cm": "68.58cm x 58.42cm"
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Currier Gallery of Art",
+          "city": "Manchester",
+          "state": "NH",
+          "country": "US",
+          "identifier": "M-1930",
+          "stamp": "",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "Private Collection, Milan",
+          "Theorem von Schliessen-Thunfaft-1927",
+          "Klein's estate, N.Y. 1927-1945",
+          "J. S. Bacon Collection, N.Y. 1927-1945",
+          "Nicholas R. Gioconda, 1945-1947",
+          "The Currier Gallery of Art, 1947"
+        ],
+        "literature": [
+          "A. Venturi, St. A., VII (3) p. 814 (1914)",
+          "Tanzi, 1928 Jan./Jun. p. 237",
+          "B. Comani, I. Le Grandi Corti"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Sanford",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "Sanford",
+          "identifier": "3 2044 156 513 368",
+          "stamp": "PHOTO Manchester, N.H.",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 702,
+  "total_tokens": 3257,
+  "cost": 0.016089,
+  "status": "OK",
+  "request_time": 25
+}

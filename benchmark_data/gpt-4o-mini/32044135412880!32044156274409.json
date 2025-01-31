@@ -1,0 +1,94 @@
+{
+  "photo_id": "32044156274409",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Madonna e S. Antonio",
+        "artist": "Pietro Facini",
+        "date": "1600",
+        "inscriptions": "Pietro Facini",
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "USA",
+          "identifier": "1932.263"
+        },
+        "materials": "Pen & ink over red crayon",
+        "full_text": ""
+      },
+      "back": {
+        "title": "P. Facini",
+        "addtional_title": "Madonna appearing to St Anthony",
+        "artist": {
+          "name": "P. Facini",
+          "listed": false,
+          "additional_annotations": ""
+        },
+        "date": "1600",
+        "dimensions": {
+          "artwork": {
+            "original": "12 1/2\" x 9 3/4\"",
+            "cm": "31 x 24.7"
+          }
+        },
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "USA",
+          "identifier": "1932.263",
+          "stamp": "",
+          "gift": "Charles A. Loeser Bequest"
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [
+          "prov: Lele Call (L. 2015)"
+        ],
+        "literature": [
+          "lit: Mondan-Sach's cat. n.84"
+        ],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 525,
+  "total_tokens": 3080,
+  "cost": 0.013965,
+  "status": "OK",
+  "request_time": 17
+}

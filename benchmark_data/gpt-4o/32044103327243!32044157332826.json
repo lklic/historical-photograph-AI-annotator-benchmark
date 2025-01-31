@@ -1,0 +1,35 @@
+{
+  "photo_id": "32044157332826",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Triunfo di Adonis",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "IT"
+        },
+        "full_text": "Museo Civico. Piatti di M\u00b0 Giorgio. Fotogr. dell'Emilia Bologna"
+      },
+      "back": {
+        "title": "Birth of Adonis",
+        "artist": {
+          "listed": true,
+          "additional_annotations": "based on design of Timoteo Viti"
+        }
+      }
+    },
+    "photograph": {
+      "back": {
+        "stamp": "MUSEO CIVICO BOLOGNA"
+      }
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 164,
+  "total_tokens": 2719,
+  "cost": 0.0080275,
+  "status": "OK",
+  "request_time": 7
+}

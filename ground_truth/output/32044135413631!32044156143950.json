@@ -1,0 +1,32 @@
+{
+  "artwork": {
+    "front": {
+      "title": "Cod. Palat. 5",
+      "inscriptions": "Greek text and decorative border with ornamental patterns",
+      "repository": {
+        "name": "Bibl. Palatina",
+        "city": "Parma",
+        "country": "ITA"
+      }
+    },
+    "back": {
+      "repository": {
+        "name": "Bibl. Palatina",
+        "city": "Parma",
+        "country": "ITA",
+        "identifier": "Cod. Palat. 5",
+        "gift": "L. Corti"
+      }
+    }
+  },
+  "photograph": {
+    "back": {
+      "yellow_dot": false
+    }
+  },
+  "additional_annotations": {
+    "back": [
+      "c. 268r"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "photo_id": "32044157332826",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Tavola di Misciagiovanni",
+        "artist": "T. M. L.",
+        "date": "1532",
+        "inscriptions": "15-32\nMP",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "state": "BO",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials": "",
+        "full_text": ""
+      },
+      "back": {
+        "title": "The Birth of Adonis",
+        "addtional_title": "",
+        "artist": {
+          "name": "Triptych II",
+          "listed": true,
+          "additional_annotations": "listed on design of Timoteo Viti"
+        },
+        "date": "",
+        "dimensions": {
+          "artwork": {
+            "original": "",
+            "cm": ""
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "state": "BO",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Emilia Bologna",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
+      "rotation": null
+    },
+    "back": {
+      "photographer": {
+        "name": "Berenson",
+        "identifier": "3 2044 157 332 826",
+        "stamp": "FOTOTECA BERENSON FIRENZE I TATTI SETTIGNANO",
+        "alinari_id": "",
+        "anderson_id": ""
+      },
+      "yellow_dot": false
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 535,
+  "total_tokens": 3090,
+  "cost": 0.014085,
+  "status": "OK",
+  "request_time": 15
+}

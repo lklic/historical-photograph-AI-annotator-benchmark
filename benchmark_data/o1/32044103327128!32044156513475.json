@@ -1,0 +1,68 @@
+{
+  "photo_id": "32044156513475",
+  "model": "o1",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "St. Paul",
+        "addtional_title": "St Paul pointing to Heaven in a landscape",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true,
+          "additional_annotations": "Ferrarese, 1460-1535"
+        },
+        "date": "1510-1545",
+        "dimensions": {
+          "panel": {
+            "original": "13-1/2 x 10-3/8 in",
+            "cm": "34.3cm x 26.3cm"
+          },
+          "frame": {
+            "original": "16-7/8 x 13-5/8 in",
+            "cm": "42.9cm x 34.6cm"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "Memphis",
+          "state": "TN",
+          "country": "US",
+          "identifier": "61.94",
+          "gift": "Kress Gift 1958"
+        }
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "provenance": [
+          "D. Botto, Milan as Boccaccino",
+          "From the Chiesa Collection, Milan",
+          "S.H. Kress 1936 (#466) 364",
+          "N.G.A. Washington D.C. n.364"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "Murray K. Keyes",
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "S. Box 19-1/2 x 16-3/8 in",
+        "Loan? (Offner p.145) intorno al 1510-45"
+      ]
+    }
+  },
+  "input_tokens": 2324,
+  "output_tokens": 8469,
+  "total_tokens": 10793,
+  "cost": 0.543,
+  "status": "OK",
+  "request_time": 84
+}

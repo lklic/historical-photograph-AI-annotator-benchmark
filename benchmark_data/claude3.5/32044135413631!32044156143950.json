@@ -1,0 +1,43 @@
+{
+  "photo_id": "32044156143950",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": "Greek text including liturgical headings and biblical text",
+        "repository": {
+          "name": "Bibl. Palatina",
+          "city": "Parma",
+          "country": "ITA"
+        }
+      },
+      "back": {
+        "repository": {
+          "name": "Bibl. Palatina",
+          "city": "Parma",
+          "country": "ITA",
+          "identifier": "Cod. Palat. 5"
+        },
+        "gift": "L. Corti"
+      },
+      "identifiers": {}
+    },
+    "photograph": {
+      "back": {
+        "identifier": "c. 268r",
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "X c."
+      ]
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 229,
+  "total_tokens": 4133,
+  "cost": 0.015147,
+  "status": "OK",
+  "request_time": 6
+}

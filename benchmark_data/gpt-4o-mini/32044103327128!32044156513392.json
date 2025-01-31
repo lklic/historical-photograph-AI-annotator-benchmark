@@ -1,0 +1,69 @@
+{
+  "photo_id": "32044156513392",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "La cour d'Isabella d'Este",
+        "artist": "Lorenzo Costa",
+        "date": "after 1506",
+        "repository": {
+          "name": "Mus\u00e9e National du Louvre",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "full_text": ""
+      },
+      "back": {
+        "title": "the court of Isabella d'Este",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true
+        },
+        "date": "after 1506",
+        "repository": {
+          "name": "Louvre",
+          "city": "Paris",
+          "country": "FR"
+        }
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "alinari_id": "23083"
+        }
+      },
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "23083"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 335,
+  "total_tokens": 2890,
+  "cost": 0.011685000000000001,
+  "status": "OK",
+  "request_time": 11
+}

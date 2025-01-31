@@ -1,0 +1,103 @@
+{
+  "photo_id": "32044156274813",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Dintorni",
+        "artist": "N. F. R. R. X.",
+        "date": "XVIII secolo",
+        "inscriptions": "Firenze",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "Firenze",
+          "country": "IT",
+          "identifier": ""
+        },
+        "materials": "",
+        "full_text": "Pesche e Pere che si coltivano a Castello. (XVIII secolo)."
+      },
+      "back": {
+        "title": "Villa di Castello",
+        "artist": {
+          "name": "",
+          "listed": false,
+          "additional_annotations": ""
+        },
+        "date": "",
+        "dimensions": {
+          "artwork": {
+            "original": "",
+            "cm": ""
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
+        "repository": {
+          "name": "Fototeca Berenson",
+          "city": "Firenze",
+          "state": "FI",
+          "country": "IT",
+          "identifier": "",
+          "stamp": "Fototeca Berenson Firenze",
+          "gift": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Ed. Alinari",
+          "identifier": "",
+          "alinari_id": "30523",
+          "anderson_id": ""
+        }
+      },
+      "rotation": null
+    },
+    "back": {
+      "photographer": {
+        "name": "",
+        "identifier": "",
+        "stamp": "",
+        "alinari_id": "",
+        "anderson_id": ""
+      },
+      "yellow_dot": false
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": [
+        "1922",
+        "Firenze"
+      ]
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 514,
+  "total_tokens": 3069,
+  "cost": 0.013833,
+  "status": "OK",
+  "request_time": 15
+}

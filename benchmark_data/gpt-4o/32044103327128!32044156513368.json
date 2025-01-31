@@ -1,0 +1,60 @@
+{
+  "photo_id": "32044156513368",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Portrait of Eleonora Gonzaga Duchess of Urbino",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "19 1/4 x 13 1/4",
+            "cm": "48.9cm x 33.7cm"
+          },
+          "panel": {
+            "original": "27 x 23",
+            "cm": "68.6cm x 58.4cm"
+          }
+        },
+        "repository": {
+          "name": "The Currier Gallery of Art",
+          "city": "Manchester",
+          "state": "NH",
+          "country": "US",
+          "stamp": "Sanford Photo Manchester, N.H.",
+          "gift": "PLEASE RETURN TO THE CURRIER GALLERY OF ART 192 ORANGE STREET MANCHESTER, N.H."
+        },
+        "materials": "Oil on canvas (transferred from wood)"
+      },
+      "history": {
+        "provenance": [
+          "Private Collection, Milano",
+          "Museum of Prince von Hohenzollern-Sigmaringen, Tempelhof, 1927",
+          "Kleinberger\u2019s, N.Y., 1927",
+          "J. Dauc, Collection, N.Y., 1927-1945",
+          "Nicholas M. Grgurewitch, N.Y., 1945-1947",
+          "The Currier Gallery of Art, 1947"
+        ],
+        "literature": [
+          "A. Venturi St. A. VII (3) p. 814 (1914)",
+          "Pantheon 1928 Jan.-June p. 237",
+          "G. Comani: Lorenzo Costa Publications of the Hermitage: Westeurope, Vol. II (1961) p. 198"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 448,
+  "total_tokens": 3003,
+  "cost": 0.010867499999999999,
+  "status": "OK",
+  "request_time": 18
+}

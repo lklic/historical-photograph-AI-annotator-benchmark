@@ -1,0 +1,37 @@
+{
+  "artwork": {
+    "front": {
+      "artist": "Pietro Facini",
+      "inscriptions": "Pietro Facini"
+    },
+    "back": {
+      "title": "Madonna appearing to St Anthony",
+      "artist": {
+        "name": "P. Faccini"
+      },
+      "dimensions": {
+        "artwork": {
+          "original": "12 1/2\" x 9 3/4\"",
+          "cm": "31cm x 24.7cm"
+        }
+      },
+      "repository": {
+        "name": "Fogg Art Museum",
+        "city": "Cambridge",
+        "state": "MA",
+        "country": "USA",
+        "identifier": "1932.223",
+        "gift": "Charles A. Loesser Bequest"
+      },
+      "materials": "Pen & ink over red crayon"
+    },
+    "history": {
+      "provenance": [
+        "Lodi Coll. (L. 2092)"
+      ],
+      "literature": [
+        "Morgan-Sachs cat. n. 84"
+      ]
+    }
+  }
+}

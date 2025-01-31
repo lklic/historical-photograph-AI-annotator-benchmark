@@ -1,0 +1,52 @@
+{
+  "photo_id": "32044156274409",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "artist": "Pietro Facini",
+        "inscriptions": "PF 39"
+      },
+      "back": {
+        "title": "Madonna appearing to St Anthony",
+        "artist": {
+          "name": "P. Faccini",
+          "listed": false
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "12 1/2' x 9 3/4'",
+            "cm": "31cm x 24.7cm"
+          }
+        },
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "USA",
+          "identifier": "1952.223"
+        },
+        "materials": "Pen & ink over red crayon"
+      },
+      "history": {
+        "provenance": [
+          "Lodi coll. (L. 2092)"
+        ],
+        "literature": [
+          "Morgan-Sachs cat. n. 84"
+        ]
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Charles A. Loeser Bequest"
+      ]
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 297,
+  "total_tokens": 4201,
+  "cost": 0.016167,
+  "status": "OK",
+  "request_time": 7
+}

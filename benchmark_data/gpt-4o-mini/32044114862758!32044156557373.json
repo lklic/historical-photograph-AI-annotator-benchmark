@@ -1,0 +1,98 @@
+{
+  "photo_id": "32044156557373",
+  "model": "gpt-4o-mini",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "San Giovanni Battista e Santa Caterina d'Alessandria",
+        "artist": "Paolo Veneziano",
+        "date": "1350",
+        "inscriptions": "ECCE MAGNUS EST",
+        "repository": {
+          "name": "Art Institute of Chicago",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US",
+          "identifier": "C7991"
+        },
+        "materials": "tempera on panel",
+        "full_text": ""
+      },
+      "back": {
+        "title": "St. John the Baptist and St. Catherine of Alexandria",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": false,
+          "additional_annotations": "Accompanied on panel 'St. Augustine at Peter' was in the Roerich Sale."
+        },
+        "date": "1350",
+        "dimensions": {
+          "artwork": {
+            "original": "30\" x 19 1/4\"",
+            "cm": "76.2cm x 48.9cm"
+          }
+        },
+        "repository": {
+          "name": "Art Institute of Chicago",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US",
+          "identifier": "C7991"
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
+      },
+      "history": {
+        "exhibitions": [
+          "exh. Art Institute of Chicago: 1930-37, No. 87, cat. (June 1 - Nov. 1, 1930)",
+          "exh. Art Institute of Chicago: 1934, No. 93, cat. (June 1 - Nov. 1, 1934)"
+        ],
+        "provenance": [
+          "prov. Grimada Call. Venezia",
+          "prov. Roerich Museum, New York",
+          "prov. Roerich Sale, New York, 1930, March 28, Mr. & Mrs. Worcester"
+        ],
+        "literature": [],
+        "loans": [
+          "loan Mr. and Mrs. C.H. Worcester collection"
+        ],
+        "attribution": [
+          "attr. Paolo Veneziano"
+        ]
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Art Institute of Chicago",
+          "identifier": "C7991",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "rotation": null
+      },
+      "back": {
+        "photographer": {
+          "name": "Art Institute of Chicago",
+          "identifier": "C7991",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": []
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 655,
+  "total_tokens": 3210,
+  "cost": 0.015524999999999999,
+  "status": "OK",
+  "request_time": 15
+}

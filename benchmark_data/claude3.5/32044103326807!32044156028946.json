@@ -1,0 +1,39 @@
+{
+  "photo_id": "32044156028946",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Adam & Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": false
+        },
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CAN",
+          "identifier": "2364"
+        }
+      },
+      "history": {
+        "provenance": [
+          "in Venetian Art New Gallery 1895"
+        ]
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "London blades",
+        "blades each",
+        "N.G.B Canada"
+      ]
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 183,
+  "total_tokens": 4087,
+  "cost": 0.014457000000000001,
+  "status": "OK",
+  "request_time": 6
+}

@@ -1,0 +1,46 @@
+{
+  "photo_id": "32044156557688",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Chioggia - Veneto, Oratorio di S. Martino, un particolare del quadro all'altare maggiore",
+        "artist": "Maestro Paolo da Venezia",
+        "repository": {
+          "name": "Oratorio di S. Martino",
+          "city": "Chioggia",
+          "country": "ITA"
+        }
+      },
+      "back": {
+        "title": "Scenes from Life of St Martin (detail of polyptych)",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": true
+        },
+        "date": "1349",
+        "repository": {
+          "name": "Oratory of S. Martino",
+          "city": "Chioggia",
+          "country": "ITA"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "alinari_id": "20845"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 287,
+  "total_tokens": 4191,
+  "cost": 0.016017,
+  "status": "OK",
+  "request_time": 8
+}

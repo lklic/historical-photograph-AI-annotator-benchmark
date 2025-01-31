@@ -1,0 +1,40 @@
+{
+  "photo_id": "32044156582488",
+  "model": "gpt-4o",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Annunciazione e un Santo",
+        "date": "1400-1499",
+        "full_text": "(Ed. Alinari) n.\u00b029209. FIRENZE - Dintorni. Tabernacolo presso Castello. Una parte dell' affresco \u00ab L'Annunziazione e un Santo \u00bb. (XV secolo)."
+      },
+      "back": {
+        "title": "Tabernacle 'Annunciation with Julian & Ansanus' (detail)",
+        "artist": {
+          "name": "Paolo Schiavo",
+          "listed": true
+        },
+        "repository": {
+          "name": "Church of San Pio X",
+          "city": "Florence"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "alinari_id": "29209"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    }
+  },
+  "input_tokens": 2555,
+  "output_tokens": 223,
+  "total_tokens": 2778,
+  "cost": 0.0086175,
+  "status": "OK",
+  "request_time": 12
+}

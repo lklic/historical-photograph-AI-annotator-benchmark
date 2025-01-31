@@ -1,0 +1,42 @@
+{
+  "photo_id": "32044157332826",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "ITA"
+        },
+        "inscriptions": "1532"
+      },
+      "back": {
+        "title": "The birth of Adonis",
+        "artist": {
+          "name": "Timoteo Viti",
+          "listed": true,
+          "additional_annotations": "listed on design of"
+        },
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "ITA"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "alinari_id": "25268"
+        }
+      }
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 215,
+  "total_tokens": 4119,
+  "cost": 0.014937,
+  "status": "OK",
+  "request_time": 6
+}

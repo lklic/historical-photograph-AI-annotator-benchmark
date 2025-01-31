@@ -1,0 +1,59 @@
+{
+  "photo_id": "32044156513475",
+  "model": "claude-3-5-sonnet-20241022",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "ST. PAUL",
+        "additional_title": "St Paul pointing to Heaven in landscape",
+        "artist": {
+          "name": "LORENZO COSTA",
+          "additional_annotations": "Ferrarese, 1460-1535"
+        },
+        "dimensions": {
+          "panel": {
+            "original": "15 1/2\" x 10 3/8\"",
+            "cm": "39.4cm x 26.3cm"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "MEMPHIS",
+          "state": "TN",
+          "country": "USA"
+        }
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "provenance": [
+          "Prov: D. Botto Milan as Bocaccino",
+          "From the Chiesa Collection, Milan",
+          "S.H. Kress 1936 (K466)",
+          "N.G.A. Washington D.C. n.364"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "MURRAY K. KEYES",
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Longhi (Off. june p. 145) intorno al 1510-15"
+      ]
+    }
+  },
+  "input_tokens": 3904,
+  "output_tokens": 416,
+  "total_tokens": 4320,
+  "cost": 0.017952,
+  "status": "OK",
+  "request_time": 11
+}

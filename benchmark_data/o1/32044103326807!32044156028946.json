@@ -1,0 +1,50 @@
+{
+  "photo_id": "32044156028946",
+  "model": "o1",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Adam & Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true
+        },
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "state": "ON",
+          "country": "CA",
+          "identifier": "3364",
+          "stamp": "THE NATIONAL GALLERY OF CANADA"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "Venetian Art, New Gallery, 1895"
+        ],
+        "provenance": [
+          "Is this the Crawley purchase suppod?"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": [],
+      "back": [
+        "I xxvi",
+        "N.P.B Canada",
+        "London Blades"
+      ]
+    }
+  },
+  "input_tokens": 2324,
+  "output_tokens": 3557,
+  "total_tokens": 5881,
+  "cost": 0.24828,
+  "status": "OK",
+  "request_time": 47
+}

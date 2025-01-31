@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .image-pair { display: flex; gap: 20px; margin: 20px 0; justify-content: center; }
+        .image-pair img { max-height: 800px; width: auto; }
+        .navigation { margin: 20px 0; text-align: center; }
+        .data-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .data-table th, .data-table td { 
+            padding: 8px; 
+            text-align: left; 
+            border: 1px solid #ddd; 
+            vertical-align: top;
+        }
+        .data-table th { background-color: #f5f5f5; font-weight: bold; }
+        .array-item { 
+            display: block;
+            padding: 2px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>{{ image_id }}</h2>
+        
+        <div class="image-pair">
+            <img src="{{ front_url }}" alt="Front">
+            <img src="{{ back_url }}" alt="Back">
+        </div>
+
+        <div class="navigation">
+            {% if current_page > 0 %}
+            <a href="/?page={{ current_page - 1 }}">Previous</a>
+            {% endif %}
+            
+            Page {{ current_page + 1 }} of {{ total_pages }}
+            
+            {% if current_page < total_pages - 1 %}
+            <a href="/?page={{ current_page + 1 }}">Next</a>
+            {% endif %}
+        </div>
+
+        <table class="data-table">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+            {% for path, value in flatten_dict(data) %}
+            <tr>
+                <td>{{ path }}</td>
+                <td>
+                    {% if isinstance(value, list) %}
+                        {% for item in value %}
+                            <span class="array-item">{{ item }}</span>
+                        {% endfor %}
+                    {% else %}
+                        {{ value }}
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
