@@ -1,0 +1,80 @@
+{
+  "photo_id": "32044156513475",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "",
+        "artist": "",
+        "date": "",
+        "repository": {},
+        "materials": "",
+        "full_text": "466"
+      },
+      "back": {
+        "title": "St. Paul",
+        "additional_title": "\"St Paul pointing to Heaven in landscape\"",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true
+        },
+        "date": "1510-1515",
+        "dimensions": {
+          "artwork": {
+            "original": "13-1/2\" x 10-3/8\"",
+            "cm": "34.3cm x 26.3cm"
+          },
+          "frame": {
+            "original": "16-7/8\" x 13-5/8\"",
+            "cm": "42.9cm x 34.6cm"
+          },
+          "panel": {
+            "original": "13-5/8\" x 10-1/2\"",
+            "cm": "34.6cm x 26.7cm"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "Memphis",
+          "state": "TN",
+          "country": "US",
+          "identifier": "61.94",
+          "gift": "Kress Gift 1958",
+          "ex": "Chiesa Collection, Milan"
+        }
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "provenance": [
+          "D. Botto, Milan as Boccacino",
+          "Chiesa Collection, Milan",
+          "S.H. Kress 1936 (K466)",
+          "N.G.A. Washington (D.C.) n.364"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "Murray K. Keyes",
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Prov: D. Botto, Milan as Boccacino",
+        "Longh\u00ed (Officina p.145) intorno al 1510-15"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 530,
+  "total_tokens": 3163,
+  "cost": 0.27697499999999997,
+  "status": "OK",
+  "request_time": 80
+}

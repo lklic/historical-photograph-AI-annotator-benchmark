@@ -6,16 +6,16 @@
       "front": {
         "title": "Tintoretto's Servant",
         "artist": "Tintoretto",
-        "date": "1545",
+        "date": "1540",
         "repository": {
           "name": "The National Gallery of Canada",
           "city": "Ottawa",
           "state": "ON",
           "country": "CA",
-          "identifier": "3453"
+          "identifier": "no. 3453"
         },
-        "materials": "Canvas",
-        "full_text": "Canvas 42 1/4\" x 35\""
+        "materials": "Oil on canvas",
+        "full_text": ""
       },
       "back": {
         "title": "Tintoretto's Servant",
@@ -24,11 +24,11 @@
           "listed": true,
           "additional_annotations": ""
         },
-        "date": "1545",
+        "date": "1540",
         "dimensions": {
           "artwork": {
-            "original": "Canvas 42 1/4\" x 35\"",
-            "cm": "107.32 x 88.90"
+            "original": "42 1/4\" x 35\"",
+            "cm": "107.32cm x 88.9cm"
           }
         },
         "repository": {
@@ -36,9 +36,10 @@
           "city": "Ottawa",
           "state": "ON",
           "country": "CA",
-          "identifier": "3453",
-          "stamp": "A. C. COOPER Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES' S.W.1, GERRARD 2891",
-          "gift": ""
+          "identifier": "no. 3453",
+          "stamp": "A. C. COOPER, Fine Art Photographer",
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -47,13 +48,14 @@
       },
       "history": {
         "exhibitions": [
-          "exh. R.A. London 1930 no. 438"
+          "Exh.: R.A. London 1930 no. 438"
         ],
         "provenance": [
-          "prov. Brass, Venice"
+          "Prov.: J. Brass, Venice",
+          "Acquired by the Nat. Gall. of Canada 1924"
         ],
         "literature": [
-          "lit. Hubbard - European Paintings in Canadian Cells, p. 16"
+          "Lit.: Hubbard - European Paintings in Canadian Calls, p. 16"
         ],
         "loans": [],
         "attribution": []
@@ -63,32 +65,31 @@
       "front": {
         "photographer": {
           "name": "A. C. Cooper",
-          "identifier": "37181",
+          "identifier": "",
           "alinari_id": "",
-          "anderson_id": ""
+          "anderson_id": "37181"
         }
       },
-      "rotation": null
-    },
-    "back": {
-      "photographer": {
-        "name": "A. C. Cooper",
-        "identifier": "37181",
-        "stamp": "A. C. COOPER Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES' S.W.1, GERRARD 2891",
-        "alinari_id": "",
-        "anderson_id": ""
-      },
-      "yellow_dot": true
+      "back": {
+        "photographer": {
+          "name": "A. C. Cooper",
+          "identifier": "37181",
+          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES, S.W.1, GERRARD 2891.",
+          "alinari_id": "",
+          "anderson_id": "37181"
+        },
+        "yellow_dot": true
+      }
     },
     "additional_annotations": {
-      "front": [],
+      "front": "Acquired by the National Gallery of Canada 1924",
       "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 597,
-  "total_tokens": 3152,
-  "cost": 0.014829,
+  "input_tokens": 2633,
+  "output_tokens": 601,
+  "total_tokens": 3234,
+  "cost": 0.015111,
   "status": "OK",
-  "request_time": 14
+  "request_time": 17
 }

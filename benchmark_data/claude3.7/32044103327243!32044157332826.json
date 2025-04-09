@@ -1,0 +1,43 @@
+{
+  "photo_id": "32044157332826",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": "15-32 W \u2022 L \u2022 Proj de maiolica",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "IT"
+        },
+        "full_text": "362618. Museo Civico. Piatti di M.o Giorgio. Fabbrica dell'Umbria Bologna"
+      },
+      "back": {
+        "title": "The birth of Adonis",
+        "artist": {
+          "name": "Timoteo Viti",
+          "listed": true
+        },
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "IT"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "362618. Museo Civico. Piatti di M.o Giorgio. Fabbrica dell'Umbria Bologna",
+      "back": [
+        "Piatti",
+        "Urbino",
+        "Birth of Adam"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 279,
+  "total_tokens": 4262,
+  "cost": 0.016134000000000003,
+  "status": "OK",
+  "request_time": 7
+}

@@ -4,21 +4,18 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Un particolare del quadro all'altare maggiore",
-        "artist": "Maestro Paolo da Venezia",
         "repository": {
           "city": "Chioggia",
           "state": "Veneto",
           "country": "IT"
         },
-        "full_text": "(Ed. Alinari) N. 20845. CHIOGGIA - Veneto. Oratorio di S. Martino. un particolare del quadro all'altare maggiore. (Maestro Paolo da Venezia)."
+        "full_text": "(Ed. Alinari) N. 20845. CHIOGGIA - Veneto. Oratorio di S. Martino. un particolare del quadro all\u2019altare maggiore. (Maestro Paolo da Venezia)."
       },
       "back": {
         "title": "Scenes from Life of St Martin",
         "artist": {
           "name": "Paolo Veneziano",
-          "listed": true,
-          "additional_annotations": "1349"
+          "listed": true
         },
         "date": "1349",
         "repository": {
@@ -31,18 +28,26 @@
       "front": {
         "photographer": {
           "alinari_id": "20845"
-        },
-        "rotation": null
+        }
       },
       "back": {
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "front": "(Ed. Alinari) N. 20845. CHIOGGIA - Veneto. Oratorio di S. Martino. un particolare del quadro all\u2019altare maggiore. (Maestro Paolo da Venezia).",
+      "back": [
+        "listed Paolo Veneziano 1349",
+        "'Scenes from Life of St Martin' (detail of polyptych)",
+        "Oratory of S. Martino",
+        "CHIOGGIA"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 265,
-  "total_tokens": 2820,
-  "cost": 0.0090375,
+  "input_tokens": 2633,
+  "output_tokens": 334,
+  "total_tokens": 2967,
+  "cost": 0.0099225,
   "status": "OK",
-  "request_time": 11
+  "request_time": 8
 }

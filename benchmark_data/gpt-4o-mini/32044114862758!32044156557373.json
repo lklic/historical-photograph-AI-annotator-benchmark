@@ -4,18 +4,18 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "San Giovanni Battista e Santa Caterina d'Alessandria",
+        "title": "S. Giov. Battista e Santa Caterina",
         "artist": "Paolo Veneziano",
-        "date": "1350",
-        "inscriptions": "ECCE MAGNUS EST",
+        "date": "c. 1340",
+        "inscriptions": "ECCO. VI, II. 33. 30.",
         "repository": {
-          "name": "Art Institute of Chicago",
+          "name": "The Art Institute of Chicago",
           "city": "Chicago",
           "state": "IL",
           "country": "US",
-          "identifier": "C7991"
+          "identifier": "C7981"
         },
-        "materials": "tempera on panel",
+        "materials": "Tempera on panel",
         "full_text": ""
       },
       "back": {
@@ -23,40 +23,46 @@
         "artist": {
           "name": "Paolo Veneziano",
           "listed": false,
-          "additional_annotations": "Accompanied on panel 'St. Augustine at Peter' was in the Roerich Sale."
+          "additional_annotations": ""
         },
-        "date": "1350",
+        "date": "c. 1340",
         "dimensions": {
           "artwork": {
-            "original": "30\" x 19 1/4\"",
+            "original": "30'' x 19 1/4''",
             "cm": "76.2cm x 48.9cm"
           }
         },
         "repository": {
-          "name": "Art Institute of Chicago",
+          "name": "The Art Institute of Chicago",
           "city": "Chicago",
           "state": "IL",
           "country": "US",
-          "identifier": "C7991"
+          "identifier": "C7981",
+          "stamp": "The Art Institute of Chicago.",
+          "gift": "Worcester Gift",
+          "ex": ""
         },
-        "materials": ""
+        "materials": "Tempera on panel"
       },
       "identifiers": {
         "kress": ""
       },
       "history": {
         "exhibitions": [
-          "exh. Art Institute of Chicago: 1930-37, No. 87, cat. (June 1 - Nov. 1, 1930)",
-          "exh. Art Institute of Chicago: 1934, No. 93, cat. (June 1 - Nov. 1, 1934)"
+          "exh. Chicago (Art Institute), 1930-37"
         ],
         "provenance": [
-          "prov. Grimada Call. Venezia",
-          "prov. Roerich Museum, New York",
-          "prov. Roerich Sale, New York, 1930, March 28, Mr. & Mrs. Worcester"
+          "prov. Grimada Call Venezia",
+          "Roerich Museum, New York",
+          "Roerich Sale, New York, 1930, March 28",
+          "Mr. & Mrs. Worcester"
         ],
-        "literature": [],
+        "literature": [
+          "lit. Roerich Sale Cat. F.J. Mathev, Jr. (School of Paolo Veneziano)",
+          "Veneziano (Paolo Veneziano and his Sons)"
+        ],
         "loans": [
-          "loan Mr. and Mrs. C.H. Worcester collection"
+          "loan Mr. and Mrs. C.H. Worcester Collection"
         ],
         "attribution": [
           "attr. Paolo Veneziano"
@@ -66,17 +72,16 @@
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Art Institute of Chicago",
-          "identifier": "C7991",
+          "name": "Unknown",
+          "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
-          "name": "Art Institute of Chicago",
-          "identifier": "C7991",
+          "name": "Unknown",
+          "identifier": "",
           "stamp": "",
           "alinari_id": "",
           "anderson_id": ""
@@ -85,14 +90,14 @@
       }
     },
     "additional_annotations": {
-      "front": [],
+      "front": "C7981",
       "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 655,
-  "total_tokens": 3210,
-  "cost": 0.015524999999999999,
+  "input_tokens": 2633,
+  "output_tokens": 643,
+  "total_tokens": 3276,
+  "cost": 0.015615,
   "status": "OK",
-  "request_time": 15
+  "request_time": 12
 }

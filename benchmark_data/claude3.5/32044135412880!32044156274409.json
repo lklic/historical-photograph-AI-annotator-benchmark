@@ -5,17 +5,16 @@
     "artwork": {
       "front": {
         "artist": "Pietro Facini",
-        "inscriptions": "PF 39"
+        "inscriptions": "PIETRO FACINI"
       },
       "back": {
         "title": "Madonna appearing to St Anthony",
         "artist": {
-          "name": "P. Faccini",
-          "listed": false
+          "name": "Pietro Facini"
         },
         "dimensions": {
           "artwork": {
-            "original": "12 1/2' x 9 3/4'",
+            "original": "12 1/2\" x 9 3/4\"",
             "cm": "31cm x 24.7cm"
           }
         },
@@ -24,7 +23,8 @@
           "city": "Cambridge",
           "state": "MA",
           "country": "USA",
-          "identifier": "1952.223"
+          "identifier": "1932.223",
+          "gift": "Charles A. Loesser Bequest"
         },
         "materials": "Pen & ink over red crayon"
       },
@@ -39,14 +39,14 @@
     },
     "additional_annotations": {
       "back": [
-        "Charles A. Loeser Bequest"
+        "Inscribed at the bottom of the page: PIETRO FACINI"
       ]
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 297,
-  "total_tokens": 4201,
-  "cost": 0.016167,
+  "input_tokens": 3983,
+  "output_tokens": 312,
+  "total_tokens": 4295,
+  "cost": 0.016629,
   "status": "OK",
-  "request_time": 7
+  "request_time": 9
 }

@@ -9,7 +9,9 @@
           "name": "Villa Reale di Castello",
           "city": "Firenze",
           "country": "ITA"
-        }
+        },
+        "date": "1700-1799",
+        "full_text": "(Ed.\u00b0Alinari) N.\u00b030523. FIRENZE \u2014 Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
       },
       "back": {
         "repository": {
@@ -22,15 +24,21 @@
     "photograph": {
       "front": {
         "photographer": {
+          "name": "Alinari",
           "alinari_id": "30523"
         }
       }
+    },
+    "additional_annotations": {
+      "back": [
+        "Villa di Castello Florence (Environs)"
+      ]
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 192,
-  "total_tokens": 4096,
-  "cost": 0.014592,
+  "input_tokens": 3983,
+  "output_tokens": 304,
+  "total_tokens": 4287,
+  "cost": 0.016509000000000003,
   "status": "OK",
-  "request_time": 6
+  "request_time": 9
 }

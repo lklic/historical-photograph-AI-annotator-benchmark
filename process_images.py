@@ -5,44 +5,10 @@ import base64
 import httpx
 from pathlib import Path
 from typing import Dict, Any, List
-from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor
 from anthropic import Anthropic
 from openai import OpenAI
-
-@dataclass
-class ProcessingConfig:
-    api_type: str  
-    model: str
-    input_cost_per_million: float
-    output_cost_per_million: float
-
-MODEL_CONFIGS = {
-    'gpt-4o': ProcessingConfig(
-        api_type='openai',
-        model='gpt-4o',
-        input_cost_per_million=2.5,
-        output_cost_per_million=10.0
-    ),
-    'o1': ProcessingConfig(
-        api_type='openai',
-        model='o1',
-        input_cost_per_million=15.0,
-        output_cost_per_million=60.0
-    ),
-    'gpt-4o-mini': ProcessingConfig(
-        api_type='openai',
-        model='gpt-4o-mini',
-        input_cost_per_million=3.0,
-        output_cost_per_million=12.0
-    ),
-    'claude3.5': ProcessingConfig(
-        api_type='claude',
-        model='claude-3-5-sonnet-20241022',
-        input_cost_per_million=3.0,
-        output_cost_per_million=15.0
-    )
-}
+from models_config import ProcessingConfig, MODEL_CONFIGS
 
 class BenchmarkStats:
     def __init__(self):
@@ -138,7 +104,6 @@ class ImageProcessor:
                     }
                 ]
             }],
-            "max_tokens": 4096,
             "response_format": {"type": "json_object"}
         }
         
@@ -150,7 +115,7 @@ class ImageProcessor:
         
         return self.client.messages.create(
             model=self.config.model,
-            max_tokens=4096,
+            max_tokens=8192,
             messages=[{
                 "role": "user",
                 "content": [
@@ -183,6 +148,14 @@ class ImageProcessor:
         input_cost = (input_tokens / 1_000_000) * self.config.input_cost_per_million
         output_cost = (output_tokens / 1_000_000) * self.config.output_cost_per_million
 
+        # Handle markdown code blocks in Claude 3.7 output
+        if '```json' in content:
+            # Extract JSON from markdown code block
+            json_start = content.find('```json\n') + 8
+            json_end = content.rfind('```')
+            if json_end > json_start:
+                content = content[json_start:json_end].strip()
+
         try:
             annotations = json.loads(content)
         except json.JSONDecodeError:
@@ -212,8 +185,19 @@ def run_benchmark(image_ids: List[str], prompt_file: str, models: List[str] = No
     # Filter models if specified
     models_to_run = {k: v for k, v in MODEL_CONFIGS.items() if models is None or k in models}
     
+    # Check if benchmark summary already exists
+    summary_file = output_dir / "benchmark_summary.json"
+    existing_benchmark_results = {}
+    if summary_file.exists():
+        try:
+            with open(summary_file, 'r') as f:
+                existing_benchmark_results = json.load(f)
+            print(f"Loaded existing benchmark summary with {len(existing_benchmark_results)} models")
+        except json.JSONDecodeError:
+            print("Warning: Existing benchmark summary is invalid, creating new one")
+    
     # Process each model sequentially
-    benchmark_results = {}
+    benchmark_results = existing_benchmark_results.copy()
     for model_name, config in models_to_run.items():
         print(f"\nProcessing with {model_name}...")
         processor = ImageProcessor(config, prompt_file)
@@ -243,6 +227,8 @@ def run_benchmark(image_ids: List[str], prompt_file: str, models: List[str] = No
     with open(output_dir / "benchmark_summary.json", 'w') as f:
         json.dump(benchmark_results, f, indent=2)
     
+    print(f"Updated benchmark summary with {len(benchmark_results)} models")
+    
     return benchmark_results
 
 def main():
@@ -268,8 +254,43 @@ def main():
         image_id = sys.argv[3].replace('"', '')
         prompt_file = sys.argv[4]
 
+        # Process the single image
         processor = ImageProcessor(MODEL_CONFIGS[model], prompt_file)
         result = processor.process_images(image_id)
+        
+        # Save the result to the model's directory
+        output_dir = Path("benchmark_data")
+        output_dir.mkdir(exist_ok=True)
+        model_dir = output_dir / model
+        model_dir.mkdir(exist_ok=True)
+        
+        output_file = model_dir / f"{image_id}.json"
+        with open(output_file, 'w') as f:
+            json.dump(result, f, indent=2)
+        
+        # Update the benchmark summary with this result
+        summary_file = output_dir / "benchmark_summary.json"
+        benchmark_results = {}
+        
+        # Load existing summary if it exists
+        if summary_file.exists():
+            try:
+                with open(summary_file, 'r') as f:
+                    benchmark_results = json.load(f)
+                print(f"Loaded existing benchmark summary with {len(benchmark_results)} models")
+            except json.JSONDecodeError:
+                print("Warning: Existing benchmark summary is invalid, creating new one")
+        
+        # Create or update stats for this model
+        stats = BenchmarkStats()
+        stats.update(result)
+        benchmark_results[model] = stats.get_summary()
+        
+        # Save updated benchmark summary
+        with open(summary_file, 'w') as f:
+            json.dump(benchmark_results, f, indent=2)
+        
+        print(f"Updated benchmark summary for model {model}")
         print(json.dumps(result, indent=4))
         
     elif mode == "benchmark":

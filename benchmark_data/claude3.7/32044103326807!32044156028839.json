@@ -1,0 +1,61 @@
+{
+  "photo_id": "32044156028839",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "TINTORETTO'S SERVANT",
+        "additional_title": "\"Tintoretto's Servant\"",
+        "artist": {
+          "name": "J. Tintoretto",
+          "listed": true
+        },
+        "dimensions": {
+          "canvas": {
+            "original": "42\"1/4\" x 35\"",
+            "cm": "107.32cm x 88.9cm"
+          }
+        },
+        "repository": {
+          "name": "THE NATIONAL GALLERY OF CANADA",
+          "city": "OTTAWA",
+          "country": "CA",
+          "identifier": "no 3453"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "R.A. London 1930 no.438"
+        ],
+        "provenance": [
+          "I. Brass. Venice",
+          "Acquired by the Nat. Gall. of Canada, 1924"
+        ],
+        "literature": [
+          "Hubbard \"European Paintings in Canadian Colls.\" p. 16"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "A. C. COOPER",
+          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES', S.W.1. GERRARD 2891.",
+          "anderson_id": "37181"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "XXXVI"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 449,
+  "total_tokens": 4432,
+  "cost": 0.018684000000000003,
+  "status": "OK",
+  "request_time": 11
+}

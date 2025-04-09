@@ -1,0 +1,49 @@
+{
+  "photo_id": "32044156274813",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Pesche e Pere che si coltivavano a Castello",
+        "date": "1700-1799",
+        "inscriptions": "NELLE TARTELLA DE CALVELLO PING.",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "Florence",
+          "country": "IT"
+        },
+        "full_text": "(Ed.ne Alinari) N.o 30523. FIRENZE - Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+      },
+      "back": {
+        "title": "Fruttola di Castello",
+        "repository": {
+          "name": "Villa di Castello",
+          "city": "Florence",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "30523"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed.ne Alinari) N.o 30523. FIRENZE - Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo).",
+      "back": [
+        "Fruttola di Castello",
+        "Mackini? 28 sept 1962",
+        "Villa di Castello FLORENCE (Environs)"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 350,
+  "total_tokens": 2983,
+  "cost": 0.24997499999999997,
+  "status": "OK",
+  "request_time": 48
+}

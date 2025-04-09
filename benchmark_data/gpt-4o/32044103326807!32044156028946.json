@@ -3,50 +3,39 @@
   "model": "gpt-4o",
   "annotations": {
     "artwork": {
-      "front": {
-        "title": "Adamo ed Eva",
-        "artist": "Tintoretto",
-        "repository": {
-          "name": "The National Gallery of Canada",
-          "city": "Ottawa",
-          "country": "CA"
-        }
-      },
       "back": {
-        "title": "Adam & Eve",
+        "title": "Adam and Eve",
         "artist": {
           "name": "Tintoretto",
-          "listed": true
+          "listed": true,
+          "additional_annotations": "listed J. Tintoretto 'Adam & Eve'"
         },
         "repository": {
-          "name": "Nat. Gallery of Canada",
+          "name": "National Gallery of Canada",
           "city": "Ottawa",
           "country": "CA",
-          "identifier": "n\u00ba3364",
-          "stamp": "THE NATIONAL GALLERY OF CANADA"
+          "identifier": "no. 3364",
+          "gift": "Conway purchase possibly listed in 'Venetian Art' New Gallery 1895"
         }
-      },
-      "history": {
-        "exhibitions": [
-          "Venetian Art, New Gallery, 1895, London"
-        ],
-        "attribution": [
-          "Crawshay purchase supposed"
-        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
       }
     },
     "additional_annotations": {
-      "front": [],
       "back": [
-        "N.P.B Canada",
-        "I xxxvi"
+        "N.G.B Canada",
+        "Nat. Gallery of Canada Ottawa",
+        "Conway purchase supposed in 'Venetian Art' New Gallery 1895 London Blades"
       ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 245,
-  "total_tokens": 2800,
-  "cost": 0.0088375,
+  "input_tokens": 2633,
+  "output_tokens": 207,
+  "total_tokens": 2840,
+  "cost": 0.0086525,
   "status": "OK",
-  "request_time": 9
+  "request_time": 17
 }

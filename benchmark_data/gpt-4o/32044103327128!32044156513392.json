@@ -4,14 +4,14 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "La cour d'Isabella d'Este",
+        "title": "La cour d\u2019Isabella d\u2019Este",
         "artist": "Lorenzo Costa",
         "repository": {
           "name": "Mus\u00e9e National du Louvre",
           "city": "Paris",
           "country": "FR"
         },
-        "full_text": "(Ed. Alinari) N. 23083, PARIS - Mus\u00e9e National du Louvre. La cour d'Isabella d'Este. (Lorenzo Costa)"
+        "full_text": "(Ed. Alinari) N. 23083, PARIS \u2013 Mus\u00e9e National du Louvre. La cour d\u2019Isabella d\u2019Este. (Lorenzo Costa)."
       },
       "back": {
         "title": "The Court of Isabella d'Este",
@@ -36,12 +36,21 @@
       "back": {
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "front": "(Ed. Alinari) N. 23083, PARIS \u2013 Mus\u00e9e National du Louvre. La cour d\u2019Isabella d\u2019Este. (Lorenzo Costa).",
+      "back": [
+        "listed Costa after 1506",
+        "\"the Court of Isabella d'Este\"",
+        "1261 Louvre",
+        "PARIS"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 245,
-  "total_tokens": 2800,
-  "cost": 0.0088375,
+  "input_tokens": 2633,
+  "output_tokens": 334,
+  "total_tokens": 2967,
+  "cost": 0.0099225,
   "status": "OK",
-  "request_time": 10
+  "request_time": 8
 }

@@ -57,7 +57,7 @@ pip install anthropic openai httpx
 .
 ├── analysis_script.py      # Main analysis script
 ├── process_images.py       # Image processing script
-├── prompt.md              # Prompt template for models
+├── prompt.txt              # Prompt template for models
 ├── test-images.md         # List of test image IDs
 ├── App.jsx               # React frontend application
 ├── package.json          # Node.js dependencies
@@ -77,7 +77,7 @@ This will create ground truth annotations for the test images using Claude 3.5 S
 
 2. Process images with different models:
 ```bash
-python process_images.py benchmark prompt.md
+python process_images.py benchmark prompt.txt
 ```
 This will process all images in test-images.md with each configured model.
 
@@ -99,7 +99,7 @@ python process_images.py single <model> <image_id> <prompt_file>
 
 Example:
 ```bash
-python process_images.py single claude3.5 "32044103326807!32044156028839" prompt.md
+python process_images.py single claude3.5 "32044103326807!32044156028839" prompt.txt
 ```
 
 ## Output Format

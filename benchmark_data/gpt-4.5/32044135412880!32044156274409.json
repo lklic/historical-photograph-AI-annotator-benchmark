@@ -1,0 +1,57 @@
+{
+  "photo_id": "32044156274409",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "artist": "Pietro Facini",
+        "inscriptions": "Pietro Facini",
+        "repository": {
+          "identifier": "1932.263"
+        }
+      },
+      "back": {
+        "title": "Madonna & St Anthony",
+        "artist": {
+          "name": "Pietro Facini",
+          "listed": false,
+          "additional_annotations": "Inscribed at the bottom of the page: PIETRO FACINI"
+        },
+        "materials": "Pen & ink over red crayon",
+        "dimensions": {
+          "artwork": {
+            "original": "12 \u00bd\" x 9 \u00be\"",
+            "cm": "31.7cm x 24.7cm"
+          }
+        },
+        "repository": {
+          "name": "Fogg Art Museum, Harvard University",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "US",
+          "identifier": "1932.263",
+          "gift": "Charles A. Loeser Bequest"
+        }
+      },
+      "history": {
+        "provenance": [
+          "Lely Coll. (L.2092)"
+        ],
+        "literature": [
+          "Mongan\u2013Sachs cat. n.84"
+        ]
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "P. Faccini Madonna appearing to St Anthony"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 323,
+  "total_tokens": 2956,
+  "cost": 0.24592499999999998,
+  "status": "OK",
+  "request_time": 40
+}

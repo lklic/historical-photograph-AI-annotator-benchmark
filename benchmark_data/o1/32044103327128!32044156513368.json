@@ -4,13 +4,11 @@
   "annotations": {
     "artwork": {
       "back": {
-        "title": "Portrait of Eleonora Gonzaga, duchess of Urbino (?)",
+        "title": "Portrait of Eleonora Gonzaga, Duchess of Urbino (?)",
         "artist": {
           "name": "Lorenzo Costa",
-          "listed": false,
-          "additional_annotations": ""
+          "listed": false
         },
-        "materials": "Oil on canvas (transferred from wood)",
         "dimensions": {
           "artwork": {
             "original": "17 1/4\" x 13 1/4\"",
@@ -26,54 +24,48 @@
           "city": "Manchester",
           "state": "NH",
           "country": "US",
-          "stamp": "PLEASE RETURN TO The Currier Gallery of Art 192 Orange Street Manchester, N.H."
-        }
+          "stamp": "PLEASE RETURN TO THE CURRIER GALLERY OF ART 192 ORANGE STREET MANCHESTER, N.H."
+        },
+        "materials": "Oil on canvas (transferred from wood)"
       },
       "history": {
-        "exhibitions": [],
         "provenance": [
           "Private Collection, Milano",
-          "Thomas W. Blumenthal Frankfurt/M 1927",
-          "Kleinberger's Gal. N.Y. 1927",
-          "J.S. Bache Collection N.Y. 1927-1945",
-          "Nicholas M. Grueber? 1945-1947",
-          "The Currier Gallery of Art 1947"
+          "Museum f\u00fcr ...Frankfurt a/M, 1927",
+          "Kleinberger Gall. N.Y., 1927",
+          "J. S. Bass Coll. N.Y., 1927\u20131945",
+          "Nicholas M. \u2026, 1945\u20131947",
+          "The Currier Gallery of Art, 1947"
         ],
         "literature": [
-          "A. Venturi St. A. ??? VII (3) p.814 (1914)",
-          "Pantheon 1928 Janv-June p.237",
-          "G. Comani ??? ???",
-          "Publications of the Hermitage: Westner??? (II-1931) p.198"
-        ],
-        "loans": [],
-        "attribution": [
-          "M-1930 listed Lorenzo Costa"
+          "A. Venturi St. d. Art. VII (3) p.814 (1914)",
+          "Pantheon 1928 January\u2013June p.237",
+          "G. Comani: \u2026",
+          "Publications of the Hermitage: Western \u2026 (II\u20131931) p.198"
         ]
       }
     },
     "photograph": {
       "back": {
         "photographer": {
-          "name": "",
-          "identifier": "",
-          "stamp": "PHOTO Manchester, N.H.",
-          "alinari_id": "",
-          "anderson_id": ""
+          "name": "Sanford",
+          "stamp": "PHOTO Manchester, N. H."
         },
         "yellow_dot": true
       }
     },
     "additional_annotations": {
-      "front": [],
       "back": [
-        "cp with Hampton-court - 355 (295) [232]"
+        "M-1930 listed",
+        "59",
+        "cp with Hampton-court -355 (295) [232]"
       ]
     }
   },
-  "input_tokens": 2324,
-  "output_tokens": 6840,
-  "total_tokens": 9164,
-  "cost": 0.44526,
+  "input_tokens": 2600,
+  "output_tokens": 6456,
+  "total_tokens": 9056,
+  "cost": 0.42635999999999996,
   "status": "OK",
-  "request_time": 79
+  "request_time": 145
 }

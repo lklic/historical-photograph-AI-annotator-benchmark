@@ -4,23 +4,23 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Oratorio di S. Martino",
-        "artist": "Maestro Paolo da Venezia",
+        "title": "Oratorio di S. Martino.",
+        "artist": "Maestro Paolo da Venezia.",
         "date": "1349",
-        "inscriptions": "",
+        "inscriptions": "Scenes from Life of St Martin.",
         "repository": {
-          "name": "Oratorio di S. Martino",
+          "name": "",
           "city": "Chioggia",
           "state": "",
           "country": "IT",
           "identifier": ""
         },
         "materials": "",
-        "full_text": "Particolare del quadro all'altare maggiore."
+        "full_text": "Oratorio di S. Martino. un particolare del quadro all'altare maggiore."
       },
       "back": {
         "title": "Listed",
-        "addtional_title": "Scenes from Life of St Martin (detail of polyptych)",
+        "additional_title": "",
         "artist": {
           "name": "Paolo Veneziano",
           "listed": true,
@@ -46,13 +46,14 @@
           }
         },
         "repository": {
-          "name": "Oratorio di S. Martino",
+          "name": "Oratory of S. Martino",
           "city": "Chioggia",
           "state": "",
           "country": "IT",
           "identifier": "",
           "stamp": "",
-          "gift": ""
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -76,27 +77,29 @@
           "anderson_id": ""
         }
       },
-      "rotation": null
-    },
-    "back": {
-      "photographer": {
-        "name": "Ed. Alinari",
-        "identifier": "3 2044 156 557 688",
-        "stamp": "FOTOTECA BERENSON VILLA I TATTI FIRENZE",
-        "alinari_id": "20845",
-        "anderson_id": ""
-      },
-      "yellow_dot": true
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "2044",
+          "anderson_id": ""
+        },
+        "yellow_dot": true
+      }
     },
     "additional_annotations": {
-      "front": [],
-      "back": []
+      "front": "Ed. Alinari N\u00b0 20845 CHIOGGIA - Veneto.",
+      "back": [
+        "Listed",
+        "Pablo Veneziano 1349 'Scenes from Life of St Martin' (detail of polyptych)"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 553,
-  "total_tokens": 3108,
-  "cost": 0.014301,
+  "input_tokens": 2633,
+  "output_tokens": 556,
+  "total_tokens": 3189,
+  "cost": 0.014570999999999999,
   "status": "OK",
-  "request_time": 20
+  "request_time": 8
 }

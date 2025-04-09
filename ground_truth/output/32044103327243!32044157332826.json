@@ -5,7 +5,7 @@
       "repository": {
         "name": "Museo Civico",
         "city": "Bologna",
-        "country": "ITA"
+        "country": "IT"
       }
     },
     "back": {
@@ -18,14 +18,14 @@
       "repository": {
         "name": "Museo Civico",
         "city": "Bologna",
-        "country": "ITA"
+        "country": "IT"
       }
     }
   },
   "photograph": {
     "front": {
       "photographer": {
-        "alinari_id": "28618"
+        "alinari_id": null
       }
     }
   }

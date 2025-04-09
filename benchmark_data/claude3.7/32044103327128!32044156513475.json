@@ -1,0 +1,75 @@
+{
+  "photo_id": "32044156513475",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "ST. PAUL",
+        "additional_title": "St Paul pointing to Heaven in landscape",
+        "artist": {
+          "name": "LORENZO COSTA",
+          "additional_annotations": "Ferrarese, 1460-1535"
+        },
+        "date": "1510-15",
+        "dimensions": {
+          "panel": {
+            "original": "13 1/2\" x 10 3/8\"",
+            "cm": "34.3cm x 26.3cm"
+          },
+          "artwork": {
+            "original": "Ptg. 13-5/8\" x 10-1/2\"",
+            "cm": "34.6cm x 26.7cm"
+          },
+          "frame": {
+            "original": "Frame 18-7/8\" x 13-5/8\"",
+            "cm": "48.0cm x 34.6cm"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "MEMPHIS",
+          "state": "TN",
+          "country": "US",
+          "identifier": "61.14"
+        }
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "provenance": [
+          "Prov: B. Botto Milan; at Boccarino",
+          "From the Chiesa Collection, Milan",
+          "S.H. Kress 1936 (K 466)",
+          "N.G.A. Washington D.C.) n.364",
+          "Longhi (60/June p. 145) intorno al 1510-15",
+          "Kress Gift 1958",
+          "Brooks Memorial Art Gallery MEMPHIS (Tenn.)"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "MURRAY K. KEYES",
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "466",
+      "back": [
+        "Panel 13 1/2\" x 10 3/8\" cm. 34.3 x 26.3",
+        "(466)",
+        "Samuel H. Kress Collection"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 600,
+  "total_tokens": 4583,
+  "cost": 0.020949000000000002,
+  "status": "OK",
+  "request_time": 14
+}

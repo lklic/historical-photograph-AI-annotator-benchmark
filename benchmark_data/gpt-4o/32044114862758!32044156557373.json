@@ -4,7 +4,19 @@
   "annotations": {
     "artwork": {
       "front": {
-        "materials": "Tempera on panel"
+        "title": "Santi Giovanni Battista e Caterina d'Alessandria",
+        "artist": "Paolo Veneziano",
+        "date": "1300-1358",
+        "inscriptions": "ECCE AGMVS TVOI",
+        "repository": {
+          "name": "The Art Institute of Chicago",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US",
+          "identifier": "47.116"
+        },
+        "materials": "Tempera on panel",
+        "full_text": "C9981 Tempera on panel 30\" x 19 1/4\""
       },
       "back": {
         "title": "St. John the Baptist & St. Catherine of Alexandria",
@@ -19,28 +31,27 @@
           }
         },
         "repository": {
-          "name": "The Art Institute of Chicago",
+          "name": "Worcester Gift Art Institute",
           "city": "Chicago",
           "country": "US",
-          "identifier": "C9981",
+          "identifier": "47.116",
           "gift": "Worcester Gift"
         }
       },
       "history": {
+        "exhibitions": [
+          "Chicago, IL: Art Institute, 1930-37 June 1-Nov 1, 1933, no. 87/cat.",
+          "June 1-Nov 1, 1934, no. 35/cat."
+        ],
         "provenance": [
-          "Grimalda Coll Venezia",
+          "Grimani Coll. Venice",
           "Roerich Museum, New York",
           "Roerich Sale, New York, 1930, March 28",
           "Mr. & Mrs. Worcester"
         ],
-        "exhibitions": [
-          "Chicago [GR] | Art Institute | 1930-37",
-          "June 1 - Nov. 1, 1933, no. 87, cat.",
-          "June 1 - Nov. 1, 1934, no. 35, cat."
-        ],
         "attribution": [
-          "Roerich Sale, Cat. F. J. Mather, Jr. (School of Paolo Veneziano)",
-          "Veneziano (Paolo Veneziano & his Sons)"
+          "Roerich Sale Cat. F. J. Mather, Jr. (School of Paolo Veneziano)",
+          "Vasari (Paolo Veneziano & his Sons)"
         ],
         "loans": [
           "MR. AND MRS. C. H. WORCESTER COLLECTION"
@@ -48,25 +59,24 @@
       }
     },
     "photograph": {
-      "front": {
-        "photographer": {
-          "alinari_id": "4"
-        }
-      },
       "back": {
         "yellow_dot": true
       }
     },
     "additional_annotations": {
+      "front": "C9981 Tempera on panel 30\" x 19 1/4\"",
       "back": [
-        "Accompanying panel 'St. Augustine & St. Peter' was in the Roerich Sale; now property of Mrs. Catherine Barker Hickox; now (1934) on loan at the Art Institute of Chicago."
+        "listed Paolo Veneziano \"St. John the Baptist & St. Catherine of Alexandria\"",
+        "(Companion on panel \"St. Augustine at Peter\" was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox Tewksbury, on loan at the Art Institute of Chicago)",
+        "Neg. No. C9981",
+        "Worcester Gift Art Institute CHICAGO (IL)"
       ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 483,
-  "total_tokens": 3038,
-  "cost": 0.0112175,
+  "input_tokens": 2633,
+  "output_tokens": 642,
+  "total_tokens": 3275,
+  "cost": 0.0130025,
   "status": "OK",
-  "request_time": 17
+  "request_time": 40
 }

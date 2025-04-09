@@ -4,7 +4,7 @@
   "annotations": {
     "artwork": {
       "back": {
-        "title": "Tintoretto's Servant",
+        "title": "TINTORETTO'S SERVANT",
         "artist": {
           "name": "J. Tintoretto",
           "listed": true
@@ -16,8 +16,8 @@
           }
         },
         "repository": {
-          "name": "The National Gallery of Canada",
-          "city": "Ottawa",
+          "name": "National Gallery of Canada",
+          "city": "OTTAWA",
           "country": "CAN",
           "identifier": "no 3453"
         }
@@ -38,18 +38,18 @@
     "photograph": {
       "back": {
         "photographer": {
-          "name": "A. C. Cooper",
-          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES', S.W. 1. GERRARD 2991",
+          "name": "A. C. COOPER",
+          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES', S.W. 1. GERRARD 2891.",
           "identifier": "37181"
         },
         "yellow_dot": true
       }
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 377,
-  "total_tokens": 4281,
-  "cost": 0.017367,
+  "input_tokens": 3983,
+  "output_tokens": 379,
+  "total_tokens": 4362,
+  "cost": 0.017634,
   "status": "OK",
-  "request_time": 9
+  "request_time": 10
 }

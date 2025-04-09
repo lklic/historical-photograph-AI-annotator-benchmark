@@ -17,10 +17,10 @@
           }
         },
         "repository": {
-          "name": "Brooks Memorial Art Gallery",
-          "city": "MEMPHIS",
-          "state": "TN",
-          "country": "USA"
+          "name": "Chiesa Collection",
+          "city": "Milan",
+          "country": "ITA",
+          "ex": "D. Botto Milan as Bocaccino"
         }
       },
       "identifiers": {
@@ -28,10 +28,13 @@
       },
       "history": {
         "provenance": [
-          "Prov: D. Botto Milan as Bocaccino",
-          "From the Chiesa Collection, Milan",
           "S.H. Kress 1936 (K466)",
-          "N.G.A. Washington D.C. n.364"
+          "N.G.A. Washington D.C. n.364",
+          "Kress Gift 1958",
+          "Brooks Memorial Art Gallery Memphis Tenn."
+        ],
+        "attribution": [
+          "Longf (bW june p 145) intorno al 1510-15"
         ]
       }
     },
@@ -43,17 +46,12 @@
         },
         "yellow_dot": true
       }
-    },
-    "additional_annotations": {
-      "back": [
-        "Longhi (Off. june p. 145) intorno al 1510-15"
-      ]
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 416,
-  "total_tokens": 4320,
-  "cost": 0.017952,
+  "input_tokens": 3983,
+  "output_tokens": 404,
+  "total_tokens": 4387,
+  "cost": 0.018009,
   "status": "OK",
-  "request_time": 11
+  "request_time": 12
 }

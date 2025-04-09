@@ -4,13 +4,14 @@
   "annotations": {
     "artwork": {
       "front": {
-        "inscriptions": "LAVRENTIVS COSTA 1499"
+        "inscriptions": "LAURENTIVS COSTA 1499"
       },
       "back": {
         "title": "Predella: Adoration of Magi",
         "artist": {
           "name": "Costa",
-          "listed": true
+          "listed": true,
+          "additional_annotations": "sdq."
         },
         "date": "1499",
         "dimensions": {
@@ -29,7 +30,7 @@
           "Ferrara 1933 n. 170"
         ],
         "provenance": [
-          "Predella panel to the Nativity by Fr. Francia, painted for the Church of the Misericordia in Bologna"
+          "Predella panel to the Nativity by Fr. Fancia, painted for the Church of the Misericordia in Bologna"
         ]
       }
     },
@@ -37,12 +38,18 @@
       "back": {
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "back": [
+        "B949",
+        "429 Brera"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 234,
-  "total_tokens": 2789,
-  "cost": 0.0087275,
+  "input_tokens": 2633,
+  "output_tokens": 270,
+  "total_tokens": 2903,
+  "cost": 0.009282499999999999,
   "status": "OK",
-  "request_time": 10
+  "request_time": 9
 }

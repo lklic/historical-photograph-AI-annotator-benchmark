@@ -1,0 +1,52 @@
+{
+  "photo_id": "32044156274813",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo).",
+        "date": "XVIII secolo",
+        "inscriptions": "N. DILL / CAPPELLA DE / CASTELLO / 1723",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "Firenze",
+          "country": "IT"
+        },
+        "full_text": "(Ed.me Alinari) N.\u00b0 30523. FIRENZE \u2014 Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+      },
+      "back": {
+        "repository": {
+          "name": "Villa di Castello",
+          "city": "Florence",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "30523"
+        }
+      },
+      "back": {
+        "photographer": {
+          "stamp": "FOTOTECA BERENSON VILLA I TATTI FIRENZE"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed.me Alinari) N.\u00b0 30523. FIRENZE \u2014 Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo).",
+      "back": [
+        "Villa di Castello FLORENCE (Environs)",
+        "Archivi Alinari Firenze 1992"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 464,
+  "total_tokens": 4447,
+  "cost": 0.018909000000000002,
+  "status": "OK",
+  "request_time": 10
+}

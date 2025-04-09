@@ -3,31 +3,36 @@
   "model": "gpt-4o",
   "annotations": {
     "artwork": {
+      "front": {
+        "inscriptions": "+\u0395\u039d\u0391\u03a1\u03a7\u0397\u03a4\u03a9\u0398+\u0395\u03a5\u0391\u0393\u0393\u0395\u039b\u0399\u03a9\u039d \u0391\u03a1\u03a7\u039c\u0395\u039d\u039f\u039c\u0391\u03a0\u039f\u03a3\u03a4\u0395\u0399\u039a\u0395\u039d\u03a3\u0397:+\u03a4\u0391\u039e\u03a3\u0399\u03a0\u0391\u03a3\u039a\u0391\u0399\u039f\u0391\u039d\u039d\u0397\u039d:\u039a\u0395\u03a6\u0391\u039b:\u0395\u039d\u0391\u03a1\u03a7\u0397\u039d\u039f\u039b\u039f\u0393\u039f\u03a3\u039a"
+      },
       "back": {
-        "dimensions": {
-          "artwork": {
-            "original": "c. 268r"
-          }
-        },
+        "title": "Cod. Palat. 5",
+        "additional_title": "X c.",
         "repository": {
           "name": "Bibl. Palatina",
           "city": "Parma",
           "country": "IT",
           "gift": "Gift of L. Corti"
         }
+      },
+      "history": {}
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
       }
     },
     "additional_annotations": {
       "back": [
-        "Cod. Palat. 5",
-        "X c."
+        "c. 268 r"
       ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 119,
-  "total_tokens": 2674,
-  "cost": 0.0075775,
+  "input_tokens": 2633,
+  "output_tokens": 183,
+  "total_tokens": 2816,
+  "cost": 0.0084125,
   "status": "OK",
-  "request_time": 609
+  "request_time": 9
 }

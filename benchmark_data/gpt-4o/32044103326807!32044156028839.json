@@ -3,6 +3,9 @@
   "model": "gpt-4o",
   "annotations": {
     "artwork": {
+      "front": {
+        "full_text": "TITNToretto_Tintoretto's Servant _______Berenson/______Venice__Tint._National Gallery of Canada"
+      },
       "back": {
         "title": "Tintoretto's Servant",
         "artist": {
@@ -11,45 +14,51 @@
         },
         "dimensions": {
           "canvas": {
-            "original": "42 1/2\" x 35\"",
-            "cm": "107.95cm x 88.9cm"
+            "original": "42 1/4\" x 35\"",
+            "cm": "107.3cm x 88.9cm"
           }
         },
         "repository": {
           "name": "Nat. Gallery of Canada",
           "city": "Ottawa",
           "country": "CA",
-          "identifier": "3453"
+          "identifier": "no3453"
         }
       },
       "history": {
         "provenance": [
-          "J. Brass, Venice",
-          "Acquired by the Nat. Gall. of Canada 1927"
+          "1. Brass, Venice",
+          "Acquired by the Nat. Gall. of Canada in 1924"
         ],
         "exhibitions": [
-          "R.A. London 1930 no. 438"
+          "R. A. London 1930 no. 438"
         ],
         "literature": [
-          "Hubbard - European Paintings in Canadian Colls. p. 16"
+          "Hubbard - European Paintings in Canadian Colls. p.16"
         ]
       }
     },
     "photograph": {
       "back": {
         "photographer": {
-          "name": "A.C. Cooper",
-          "stamp": "A. C. COOPER, Fine Art Photographer, ROSE & CROWN YARD, ST. JAMES', S.W.1. GERRARD 2891",
+          "name": "A. C. Cooper",
+          "stamp": "A. C. COOPER, Fine Art Photographer, Rose & Crown Yard, St. James', S.W.1. Gerrard 2891.",
           "anderson_id": "37181"
         },
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "back": [
+        "THE NATIONAL GALLERY OF CANADA",
+        "XXXVI"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 322,
-  "total_tokens": 2877,
-  "cost": 0.0096075,
+  "input_tokens": 2633,
+  "output_tokens": 391,
+  "total_tokens": 3024,
+  "cost": 0.0104925,
   "status": "OK",
-  "request_time": 14
+  "request_time": 10
 }

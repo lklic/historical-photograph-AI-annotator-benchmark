@@ -16,7 +16,8 @@
         "name": "Art Institute",
         "city": "CHICAGO",
         "state": "IL",
-        "country": "USA"
+        "country": "US",
+        "identifier": "47.116"
       },
       "materials": "tempera on panel"
     },

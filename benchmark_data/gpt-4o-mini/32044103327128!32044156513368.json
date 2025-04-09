@@ -4,9 +4,9 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Ritratto di Eleonora Gonzaga duchessa di Urbino",
+        "title": "Ritratto di Eleonora Gonzaga",
         "artist": "Lorenzo Costa",
-        "date": "1505",
+        "date": "c. 1505",
         "inscriptions": "",
         "repository": {
           "name": "Currier Gallery of Art",
@@ -19,18 +19,18 @@
         "full_text": ""
       },
       "back": {
-        "title": "Portrait of Eleonora Gonzaga, duchess of Urbino",
-        "addtional_title": "",
+        "title": "",
+        "additional_title": "",
         "artist": {
           "name": "Lorenzo Costa",
           "listed": true,
-          "additional_annotations": ""
+          "additional_annotations": "Portrait of Eleonora Gonzaga, duchess of Urbino (? )"
         },
-        "date": "1505",
+        "date": "",
         "dimensions": {
           "artwork": {
-            "original": "27\" x 23\"",
-            "cm": "68.58cm x 58.42cm"
+            "original": "17 1/4\" x 13 1/4\"",
+            "cm": "43.8cm x 33.7cm"
           },
           "panel": {
             "original": "",
@@ -50,9 +50,10 @@
           "city": "Manchester",
           "state": "NH",
           "country": "US",
-          "identifier": "M-1930",
-          "stamp": "",
-          "gift": ""
+          "identifier": "",
+          "stamp": "PHOTO, Sanford, Manchester, N.H.",
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -63,16 +64,16 @@
         "exhibitions": [],
         "provenance": [
           "Private Collection, Milan",
-          "Theorem von Schliessen-Thunfaft-1927",
-          "Klein's estate, N.Y. 1927-1945",
-          "J. S. Bacon Collection, N.Y. 1927-1945",
-          "Nicholas R. Gioconda, 1945-1947",
+          "Museum von Schlesien, Frankfurt, 1927",
+          "Kleininger sale, N.Y., 1927",
+          "J.S. Dackel Collection, N.Y., 1927-1945",
+          "Nicholas R. Greenwold, 1945-1947",
           "The Currier Gallery of Art, 1947"
         ],
         "literature": [
-          "A. Venturi, St. A., VII (3) p. 814 (1914)",
-          "Tanzi, 1928 Jan./Jun. p. 237",
-          "B. Comani, I. Le Grandi Corti"
+          "A. Venturi, Storia XX, VII (3), p. 814 (1914)",
+          "Tranthem, 1928, January-June, p. 237",
+          "G. Cormani, Lery Moser   "
         ],
         "loans": [],
         "attribution": []
@@ -85,14 +86,13 @@
           "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
-          "name": "Sanford",
-          "identifier": "3 2044 156 513 368",
-          "stamp": "PHOTO Manchester, N.H.",
+          "name": "",
+          "identifier": "",
+          "stamp": "Please return to the Currier Gallery of Art, 192 Orange St, Manchester, N.H.",
           "alinari_id": "",
           "anderson_id": ""
         },
@@ -100,14 +100,16 @@
       }
     },
     "additional_annotations": {
-      "front": [],
-      "back": []
+      "front": "Oil on canvas (transferred from wood)\n(27\" x 23\" framed)",
+      "back": [
+        "M-1930 listed"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 702,
-  "total_tokens": 3257,
-  "cost": 0.016089,
+  "input_tokens": 2633,
+  "output_tokens": 735,
+  "total_tokens": 3368,
+  "cost": 0.016718999999999998,
   "status": "OK",
-  "request_time": 25
+  "request_time": 11
 }

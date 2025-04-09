@@ -1,43 +1,11 @@
 {
   "photo_id": "32044156143950",
   "model": "claude-3-5-sonnet-20241022",
-  "annotations": {
-    "artwork": {
-      "front": {
-        "inscriptions": "Greek text including liturgical headings and biblical text",
-        "repository": {
-          "name": "Bibl. Palatina",
-          "city": "Parma",
-          "country": "ITA"
-        }
-      },
-      "back": {
-        "repository": {
-          "name": "Bibl. Palatina",
-          "city": "Parma",
-          "country": "ITA",
-          "identifier": "Cod. Palat. 5"
-        },
-        "gift": "L. Corti"
-      },
-      "identifiers": {}
-    },
-    "photograph": {
-      "back": {
-        "identifier": "c. 268r",
-        "yellow_dot": false
-      }
-    },
-    "additional_annotations": {
-      "back": [
-        "X c."
-      ]
-    }
-  },
-  "input_tokens": 3904,
-  "output_tokens": 229,
-  "total_tokens": 4133,
-  "cost": 0.015147,
+  "annotations": "{\n  \"artwork\": {\n    \"front\": {\n      \"inscriptions\": \"Greek text including title and biblical passages\",\n      \"date\": \"X c.\"\n    },\n    \"back\": {\n      \"repository\": {\n        \"name\": \"Bibl. Palatina\",\n        \"city\": \"Parma\",\n        \"country\": \"ITA\",\n        \"identifier\": \"Cod. Palat. 5\",\n        \"gift\": \"L. Corti\"\n      }\n    }\n  },\n  \"additional_annotations\": {\n    \"back\": [\"c. 268r\"]\n  }\n}\n\nNote: This appears to be a photograph of a 10th century Greek manuscript page, likely from a biblical text, with decorative borders and Greek text inscriptions. The manuscript is held at the Biblioteca Palatina in Parma, Italy, with the shelf mark Cod. Palat. 5. The specific folio shown is 268r, and the photograph was a gift from L. Corti to the Fototeca Berenson at Villa I Tatti, Florence.",
+  "input_tokens": 3983,
+  "output_tokens": 257,
+  "total_tokens": 4240,
+  "cost": 0.015804000000000002,
   "status": "OK",
-  "request_time": 6
+  "request_time": 7
 }

@@ -1,38 +1,47 @@
 {
   "gpt-4o": {
-    "total_cost": 0.1193,
-    "total_time": 755,
-    "total_tokens": 36846,
-    "processed_images": 13,
-    "average_cost_per_image": 0.0092,
-    "average_time_per_image": 58.08,
-    "failed_images": []
-  },
-  "o1": {
-    "total_cost": 4.4427,
-    "total_time": 751,
-    "total_tokens": 96704,
-    "processed_images": 13,
-    "average_cost_per_image": 0.3417,
-    "average_time_per_image": 57.77,
+    "total_cost": 0.1428,
+    "total_time": 176,
+    "total_tokens": 41924,
+    "processed_images": 14,
+    "average_cost_per_image": 0.0102,
+    "average_time_per_image": 12.57,
     "failed_images": []
   },
   "gpt-4o-mini": {
-    "total_cost": 0.1803,
-    "total_time": 197,
-    "total_tokens": 39934,
-    "processed_images": 13,
-    "average_cost_per_image": 0.0139,
-    "average_time_per_image": 15.15,
+    "total_cost": 0.2081,
+    "total_time": 170,
+    "total_tokens": 44988,
+    "processed_images": 14,
+    "average_cost_per_image": 0.0149,
+    "average_time_per_image": 12.14,
     "failed_images": []
   },
   "claude3.5": {
-    "total_cost": 0.2117,
-    "total_time": 104,
-    "total_tokens": 54713,
-    "processed_images": 13,
-    "average_cost_per_image": 0.0163,
-    "average_time_per_image": 8.0,
+    "total_cost": 0.2425,
+    "total_time": 138,
+    "total_tokens": 60778,
+    "processed_images": 14,
+    "average_cost_per_image": 0.0173,
+    "average_time_per_image": 9.86,
+    "failed_images": []
+  },
+  "claude3.7": {
+    "total_cost": 0.2589,
+    "total_time": 146,
+    "total_tokens": 61869,
+    "processed_images": 14,
+    "average_cost_per_image": 0.0185,
+    "average_time_per_image": 10.43,
+    "failed_images": []
+  },
+  "gpt-4.5": {
+    "total_cost": 3.5049,
+    "total_time": 743,
+    "total_tokens": 41797,
+    "processed_images": 14,
+    "average_cost_per_image": 0.2503,
+    "average_time_per_image": 53.07,
     "failed_images": []
   }
 }

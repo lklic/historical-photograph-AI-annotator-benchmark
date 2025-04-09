@@ -4,12 +4,14 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Adamo ed Eva",
+        "title": "Adam e Eva",
         "artist": "Tintoretto",
-        "date": "1550-1560",
+        "date": "c. 1550?",
+        "inscriptions": "",
         "repository": {
           "name": "National Gallery of Canada",
           "city": "Ottawa",
+          "state": "ON",
           "country": "CA",
           "identifier": "2364"
         },
@@ -17,16 +19,29 @@
         "full_text": ""
       },
       "back": {
-        "title": "Adam and Eve",
+        "title": "Adam & Eve.",
+        "additional_title": "",
         "artist": {
-          "name": "Tintoretto",
+          "name": "listed J. Tintoretto",
           "listed": true,
-          "additional_annotations": ""
+          "additional_annotations": "\"Adamo e Eva\""
         },
-        "date": "1895",
+        "date": "",
         "dimensions": {
           "artwork": {
-            "original": "I xxvi",
+            "original": "",
+            "cm": ""
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
             "cm": ""
           }
         },
@@ -35,8 +50,10 @@
           "city": "Ottawa",
           "state": "ON",
           "country": "CA",
-          "identifier": "2364",
-          "gift": ""
+          "identifier": "",
+          "stamp": "",
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -45,7 +62,7 @@
       },
       "history": {
         "exhibitions": [
-          "exh. 'Venetian Art' at New Gallery, 1895"
+          "exh. 'Venetian Art' 1895"
         ],
         "provenance": [],
         "literature": [],
@@ -56,18 +73,17 @@
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Ed. Alinari",
+          "name": "A.C. Cooper",
           "identifier": "",
-          "alinari_id": "X",
+          "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
           "name": "",
           "identifier": "",
-          "stamp": "FOTOTECA BERENSON FIRENZE I TATTI SETTIGNANO",
+          "stamp": "THE NATIONAL GALLERY OF CANADA",
           "alinari_id": "",
           "anderson_id": ""
         },
@@ -75,14 +91,17 @@
       }
     },
     "additional_annotations": {
-      "front": [],
-      "back": []
+      "front": "",
+      "back": [
+        "To this the Crounley purchase supported.?",
+        "New Gallery, East London Blades, No."
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 460,
-  "total_tokens": 3015,
-  "cost": 0.013185,
+  "input_tokens": 2633,
+  "output_tokens": 541,
+  "total_tokens": 3174,
+  "cost": 0.014391000000000001,
   "status": "OK",
   "request_time": 15
 }

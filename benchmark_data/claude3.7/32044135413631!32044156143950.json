@@ -1,0 +1,35 @@
+{
+  "photo_id": "32044156143950",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": "\u2020\u0398ND\u03de\u0399C\u03a4\u0398\u03de\u229bO\u03d2\u216b\u2020\n\u2020\u0398\u039d\u0391\u03c1\u036b\u03aa\u014c\u039d\u0398\u039d\u0398\u03de\u03ab\u2020\n\u0395\u03d2\u039b\u0399\u0393\u0395\u039b\u03aaO\u039d\u00b7\u039b\u03c1\u039c\u0395\n\u039dO\u039d\u0391\u03a0O\u03e2\u03a0\u039bC\u039a\u03d1E\u039d\u00b7",
+        "full_text": "\u2022 130 \u2022"
+      },
+      "back": {
+        "repository": {
+          "name": "Bibl. Palatina",
+          "city": "PARMA",
+          "country": "IT",
+          "identifier": "Cod. Palat. 5",
+          "gift": "L. Corti"
+        }
+      }
+    },
+    "additional_annotations": {
+      "front": "\u2022 130 \u2022",
+      "back": [
+        "c. 268r",
+        "X c.",
+        "c. 268r"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 299,
+  "total_tokens": 4282,
+  "cost": 0.016434,
+  "status": "OK",
+  "request_time": 8
+}

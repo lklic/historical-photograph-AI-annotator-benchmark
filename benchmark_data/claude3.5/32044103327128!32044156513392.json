@@ -19,6 +19,7 @@
           "listed": true,
           "additional_annotations": "after 1506"
         },
+        "date": "1506",
         "repository": {
           "name": "Louvre",
           "city": "Paris",
@@ -30,18 +31,22 @@
     "photograph": {
       "front": {
         "photographer": {
+          "name": "Alinari",
           "alinari_id": "23083"
         }
       },
       "back": {
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "front": "Ed.ne Alinari N.\u00b0 23083. PARIS - Mus\u00e9e National du Louvre. La cour d'Isabella d'Este. (Lorenzo Costa.)"
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 252,
-  "total_tokens": 4156,
-  "cost": 0.015492,
+  "input_tokens": 3983,
+  "output_tokens": 330,
+  "total_tokens": 4313,
+  "cost": 0.016899,
   "status": "OK",
-  "request_time": 7
+  "request_time": 8
 }

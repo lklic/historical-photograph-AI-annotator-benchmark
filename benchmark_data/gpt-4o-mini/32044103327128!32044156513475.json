@@ -7,7 +7,6 @@
         "title": "ST. PAUL",
         "artist": "LORENZO COSTA",
         "date": "1460-1535",
-        "inscriptions": "St Paul pointing to Heaven in landscape",
         "repository": {
           "name": "Brooks Memorial Art Gallery",
           "city": "Memphis",
@@ -15,44 +14,35 @@
           "country": "US",
           "identifier": "n. 364"
         },
-        "materials": "oil on panel",
-        "full_text": ""
+        "materials": "panel",
+        "full_text": "St. Paul By Lorenzo Costa Ferrarese, 1460-1535"
       },
       "back": {
         "title": "ST. PAUL",
-        "addtional_title": "",
         "artist": {
           "name": "LORENZO COSTA",
           "listed": true,
-          "additional_annotations": "Ferrarese, 1460-1535"
+          "additional_annotations": "from the Chiese Collection, Milan"
         },
-        "date": "1460-1535",
+        "date": "1510-45",
         "dimensions": {
           "artwork": {
-            "original": "Panel 13 5/8\" x 10 1/2\"",
-            "cm": "34.3 x 26.7"
+            "original": "13 5/8\" x 10 1/2\"",
+            "cm": "34.6 x 26.7"
           },
           "panel": {
-            "original": "",
-            "cm": ""
-          },
-          "canvas": {
-            "original": "",
-            "cm": ""
-          },
-          "frame": {
-            "original": "Frame 16-7/8\" x 13-5/8\"",
-            "cm": "42.9 x 34.6"
+            "original": "13 5/8\" x 10 1/2\"",
+            "cm": "34.6 x 26.7"
           }
         },
         "repository": {
-          "name": "Brooks Memorial Art Gallery",
-          "city": "Memphis",
-          "state": "TN",
+          "name": "Samuel H. Kress Collection",
+          "city": "",
+          "state": "",
           "country": "US",
-          "identifier": "",
-          "stamp": "",
-          "gift": "Kress Gift 1958"
+          "identifier": "l(466)",
+          "gift": "Kress Gift 1958",
+          "ex": ""
         },
         "materials": ""
       },
@@ -62,11 +52,9 @@
       "history": {
         "exhibitions": [],
         "provenance": [
-          "Prov: D. Botto, Milan as Boccacino"
+          "D. Botto, Milan as Boccaccino"
         ],
-        "literature": [
-          "S.H. Kress 1936 (K466) n. 364"
-        ],
+        "literature": [],
         "loans": [],
         "attribution": []
       }
@@ -74,16 +62,15 @@
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Murray K. Keyes",
+          "name": "MURRAY K. KEYES",
           "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
-          "name": "Murray K. Keyes",
+          "name": "MURRAY K. KEYES",
           "identifier": "",
           "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS",
           "alinari_id": "",
@@ -93,14 +80,18 @@
       }
     },
     "additional_annotations": {
-      "front": [],
-      "back": []
+      "front": "",
+      "back": [
+        "S.H. Kress 1936 (l 466) 364",
+        "M.G.A. Washington D.C. n. 364",
+        "Listed Costa \"St Paul pointing to Heaven in landscape\""
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 650,
-  "total_tokens": 3205,
-  "cost": 0.015465,
+  "input_tokens": 2633,
+  "output_tokens": 625,
+  "total_tokens": 3258,
+  "cost": 0.015399,
   "status": "OK",
-  "request_time": 15
+  "request_time": 9
 }

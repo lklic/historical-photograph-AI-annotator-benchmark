@@ -4,43 +4,99 @@
   "annotations": {
     "artwork": {
       "front": {
-        "inscriptions": "\u271d \u03a7\u039d\u03a1\u03a3 \u03ac\u03c1\u03c7\u03b7 \u03c4\u03c9 \u0398\u03b5\u03ce \u1f10\u03c5\u03b1\u03b3\u03b3\u03b5\u03bb\u03bf\u03b9\u1f21 \u03bf\u1f36\u03ba\u03bf\u03c2 \u1f08\u03c1\u03bc\u03b5 \u03bd\u03bf\u03bc\u03b1\u03c4\u03bf\u03c0\u03b5\u03c1\u03b1\u03c4\u1f74\u03c3\u03b9\u03bd",
+        "title": "",
+        "artist": "",
+        "date": "",
+        "inscriptions": "+CNOIIOPOSOLOI",
         "repository": {
-          "name": "Biblioteca Palatina",
+          "name": "Bibl. Palatina",
           "city": "Parma",
+          "state": "",
           "country": "IT",
-          "identifier": "Cod. Palat. 5"
-        }
+          "identifier": "c. 268r"
+        },
+        "materials": "",
+        "full_text": ""
       },
       "back": {
-        "title": "Bib. Palatina",
+        "title": "",
+        "additional_title": "",
+        "artist": {
+          "name": "",
+          "listed": false,
+          "additional_annotations": ""
+        },
+        "date": "",
+        "dimensions": {
+          "artwork": {
+            "original": "",
+            "cm": ""
+          },
+          "panel": {
+            "original": "",
+            "cm": ""
+          },
+          "canvas": {
+            "original": "",
+            "cm": ""
+          },
+          "frame": {
+            "original": "",
+            "cm": ""
+          }
+        },
         "repository": {
-          "name": "Biblioteca Palatina",
+          "name": "Bibl. Palatina",
           "city": "Parma",
-          "state": "PR",
+          "state": "",
           "country": "IT",
-          "gift": "Gift of L. Corti"
-        }
+          "identifier": "c. 268r",
+          "stamp": "GIFT OF L. Corti",
+          "gift": "",
+          "ex": ""
+        },
+        "materials": ""
+      },
+      "identifiers": {
+        "kress": ""
       },
       "history": {
-        "provenance": [
-          "Gift of L. Corti"
-        ]
+        "exhibitions": [],
+        "provenance": [],
+        "literature": [],
+        "loans": [],
+        "attribution": []
       }
     },
     "photograph": {
+      "front": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        }
+      },
       "back": {
         "photographer": {
+          "name": "",
+          "identifier": "",
           "stamp": "FOTOTECA BERENSON VILLA I TATTI FIRENZE",
-          "alinari_id": "3"
-        }
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
       }
+    },
+    "additional_annotations": {
+      "front": "Cod. Palat. 5 Xc. c. 268r",
+      "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 257,
-  "total_tokens": 2812,
-  "cost": 0.010749,
+  "input_tokens": 2633,
+  "output_tokens": 510,
+  "total_tokens": 3143,
+  "cost": 0.014019,
   "status": "OK",
-  "request_time": 8
+  "request_time": 13
 }

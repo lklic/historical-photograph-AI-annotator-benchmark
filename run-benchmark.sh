@@ -14,11 +14,12 @@ cat > web/package.json << 'EOL'
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "node server.js",
     "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recharts": "^2.12.0"
@@ -81,6 +82,7 @@ python3 analysis_script.py
 echo "Moving files..."
 mv analysis.json web/public/data/
 cp App.jsx web/src/
+cp server.js web/
 
 # Install dependencies and start server
 echo "Setting up and starting web server..."

@@ -1,0 +1,56 @@
+{
+  "photo_id": "32044156582488",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Tabernacolo presso Castello. Una parte dell'affresco \u00abL'Annunziazione e un Santo\u00bb",
+        "date": "1400-1499",
+        "repository": {
+          "city": "Firenze",
+          "country": "IT"
+        },
+        "full_text": "(Ed.ne Alinari) N.o 29209. FIRENZE \u2013 Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \u00abL'Annunziazione e un Santo\u00bb. (XV\u00b0 secolo)."
+      },
+      "back": {
+        "title": "Tabernacle: 'Annunciation' with Julian & Ansanus (detail)",
+        "artist": {
+          "name": "Paolo Schiavo",
+          "listed": true
+        },
+        "repository": {
+          "name": "Church of San Pio X",
+          "city": "Castello",
+          "state": "FI",
+          "country": "IT",
+          "ex": "al Sodo"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "29209"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed.ne Alinari) N.o 29209. FIRENZE \u2013 Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \u00abL'Annunziazione e un Santo\u00bb. (XV\u00b0 secolo).",
+      "back": [
+        "Listed Paolo Schiavo Tabernacle: \"Annunciation\" with Julian & Ansanus (detail)",
+        "Paolo Schiavo?",
+        "Church of San Pio X al Sodo ex-florence (Environs) Castello FIRENZE"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 423,
+  "total_tokens": 3056,
+  "cost": 0.26092499999999996,
+  "status": "OK",
+  "request_time": 71
+}

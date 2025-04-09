@@ -1,0 +1,31 @@
+{
+  "photo_id": "32044156143950",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "date": "0900-0999",
+        "repository": {
+          "name": "Biblioteca Palatina",
+          "city": "Parma",
+          "country": "IT",
+          "identifier": "Cod. Palat. 5 c. 268r",
+          "gift": "L. Corti"
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "c. 268r",
+        "Cod. Palat. 5",
+        "X c."
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 127,
+  "total_tokens": 2760,
+  "cost": 0.216525,
+  "status": "OK",
+  "request_time": 20
+}

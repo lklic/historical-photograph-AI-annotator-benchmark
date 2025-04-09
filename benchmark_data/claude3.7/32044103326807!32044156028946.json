@@ -1,0 +1,37 @@
+{
+  "photo_id": "32044156028946",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Adam & Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true
+        },
+        "repository": {
+          "name": "Nat. Gallery of Canada",
+          "city": "OTTAWA",
+          "country": "CA",
+          "identifier": "n\u00b0364"
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "N.G.C. Canada",
+        "THE NATIONAL GALLERY OF CANADA",
+        "Winter",
+        "Is this the Cranach picture reprod. in Venetian Sch. New Gallery 1895 London Blades, East London Blades. No.",
+        "Bladed [?] listed t. Tintoretto Adam & Eve",
+        "I xxvi"
+      ]
+    }
+  },
+  "input_tokens": 3983,
+  "output_tokens": 229,
+  "total_tokens": 4212,
+  "cost": 0.015384000000000002,
+  "status": "OK",
+  "request_time": 7
+}

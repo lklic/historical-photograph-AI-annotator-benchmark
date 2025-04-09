@@ -1,30 +1,34 @@
 {
   "artwork": {
     "back": {
-      "title": "Portrait of Eleonora Gonzaga, duchess of Urbino",
+      "title": "Portrait of Eleonora Gonzaga, duchess of Urbino(?)",
       "artist": {
         "name": "Lorenzo Costa",
         "listed": true
       },
       "dimensions": {
         "artwork": {
-          "original": "17\u00bc\" x 13\u00bc\" (27\" x 23\" framed)",
+          "original": "17¼\" x 13¼\" (27\" x 23\" framed)",
           "cm": "43.8cm x 33.7cm"
+        },
+        "frame": {
+          "original": "27 x 23"
         }
       },
       "repository": {
         "name": "The Currier Gallery of Art",
         "city": "Manchester",
         "state": "NH",
-        "country": "USA",
-        "identifier": "M-1930"
+        "country": "US",
+        "identifier": "M-1930",
+        "stamp": "PLEASE RETURN TO THE CURRIER GALLERY OF ART 192 ORANGE STREET MANCHESTER, N.H."
       },
       "materials": "Oil on canvas (transferred from wood)"
     },
     "history": {
       "provenance": [
         "Private Collection, Milano",
-        "Rumma von Rheinbavenstein, Frankfurt/M, 1927",
+        "Mumm von Schwarzenstein, Frankfurt a/M, 1927",
         "Kleinberger Gal., N.Y., 1927",
         "J.S. Bache Collection, N.Y., 1927-1945",
         "Nicholas M. Acquavella, N.Y., 1945-1947",
@@ -34,14 +38,14 @@
         "A. Venturi: St d.A. VII (3) p 814 (1914)",
         "PANTHEON, 1928 January-June, p 237",
         "G. Gronau: Lorenzo Costa",
-        "Publications of the Hermitage: Western Europe II-1961 p. 198"
+        "Publications of the Hermitage: Western Europe Art II-1961 p. 198"
       ]
     }
   },
   "photograph": {
     "back": {
       "photographer": {
-        "stamp": "PHOTO Manchester, N.H."
+        "stamp": "SANFORD PHOTO Manchester, N.H."
       },
       "yellow_dot": true
     }

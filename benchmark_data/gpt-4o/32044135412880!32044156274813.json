@@ -4,13 +4,16 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Pesche e Pere che si coltivavano a Castello",
-        "repository": {
-          "name": "Villa Reale di Castello",
-          "city": "FIRENZE",
-          "country": "IT"
-        },
-        "full_text": "N\u00b0 30523. FIRENZE \u2013 Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+        "inscriptions": "NELLE VIBRILLE DI CASTELLO 1955",
+        "full_text": "(Ed. Alinari) N. 30523. FIRENZE - Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+      },
+      "back": {
+        "title": "Villa di Castello",
+        "additional_title": "Florence (Environs)",
+        "artist": {
+          "name": "Nerinda Bocciardi",
+          "additional_annotations": "1955"
+        }
       }
     },
     "photograph": {
@@ -18,24 +21,23 @@
         "photographer": {
           "alinari_id": "30523"
         }
-      },
-      "back": {
-        "photographer": {
-          "stamp": "FOTOTECA BERENSON,"
-        }
       }
     },
     "additional_annotations": {
+      "front": "(Ed. Alinari) N. 30523. FIRENZE - Dintorni. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo).",
       "back": [
-        "Frutteti di Castello",
-        "Villa di Castello FLORENCE (Environs)"
+        "FOTOTECA BERENSON FIRENZE I TATTI SETTIGNANO",
+        "Mandini Bacciardi 1955",
+        "Villa di Castello",
+        "Florence (Environs)",
+        "3 2044 156 274 813"
       ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 229,
-  "total_tokens": 2784,
-  "cost": 0.0086775,
+  "input_tokens": 2633,
+  "output_tokens": 310,
+  "total_tokens": 2943,
+  "cost": 0.0096825,
   "status": "OK",
-  "request_time": 10
+  "request_time": 9
 }

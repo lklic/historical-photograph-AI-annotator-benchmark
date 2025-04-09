@@ -4,17 +4,17 @@
   "annotations": {
     "artwork": {
       "back": {
-        "title": "Portrait of Eleonora Gonzaga Duchess of Urbino",
+        "title": "Portrait of Eleonora Gonzaga, Duchess of Urbino (?)",
         "artist": {
           "name": "Lorenzo Costa",
           "listed": true
         },
         "dimensions": {
           "artwork": {
-            "original": "19 1/4 x 13 1/4",
-            "cm": "48.9cm x 33.7cm"
+            "original": "17 1/4 x 13 1/4",
+            "cm": "43.8cm x 33.7cm"
           },
-          "panel": {
+          "canvas": {
             "original": "27 x 23",
             "cm": "68.6cm x 58.4cm"
           }
@@ -24,37 +24,48 @@
           "city": "Manchester",
           "state": "NH",
           "country": "US",
-          "stamp": "Sanford Photo Manchester, N.H.",
-          "gift": "PLEASE RETURN TO THE CURRIER GALLERY OF ART 192 ORANGE STREET MANCHESTER, N.H."
-        },
-        "materials": "Oil on canvas (transferred from wood)"
+          "stamp": "PHOTO | Manchester, N. H."
+        }
       },
       "history": {
         "provenance": [
           "Private Collection, Milano",
-          "Museum of Prince von Hohenzollern-Sigmaringen, Tempelhof, 1927",
-          "Kleinberger\u2019s, N.Y., 1927",
-          "J. Dauc, Collection, N.Y., 1927-1945",
-          "Nicholas M. Grgurewitch, N.Y., 1945-1947",
+          "Thos. Agnew & Sons, Transferred/y, 1927",
+          "Kleinberger Galleries, NY, 1927",
+          "J. S. Bache Collection, N.Y., 1927-1945",
+          "Nicholas M. Schenkerker V.T., 1945-1947",
           "The Currier Gallery of Art, 1947"
         ],
         "literature": [
-          "A. Venturi St. A. VII (3) p. 814 (1914)",
-          "Pantheon 1928 Jan.-June p. 237",
-          "G. Comani: Lorenzo Costa Publications of the Hermitage: Westeurope, Vol. II (1961) p. 198"
+          "A. Venturi, St. d'Arte VII (3) p 814 (1914)",
+          "PANTHEON 1928 January-June p. 237",
+          "C. Conrato: Lrenzo Costa",
+          "Publications of the Hermitale: Western Europe II (1931) p. 198"
         ]
       }
     },
     "photograph": {
       "back": {
+        "photographer": {
+          "stamp": "PHOTO | Manchester, N. H."
+        },
         "yellow_dot": true
       }
+    },
+    "additional_annotations": {
+      "back": [
+        "M-1930 listed",
+        "Portrait of Eleonora Gonzaga, Duchess of Urbino (?)",
+        "cp with Hampton-court [355] (295) [232]",
+        "PLEASE RETURN TO THE CURRIER GALLERY OF ART | 192 ORANGE STREET | MANCHESTER . - . N. H.",
+        "the Currier Gallery of Art | MANCHESTER (N. Hamps)"
+      ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 448,
-  "total_tokens": 3003,
-  "cost": 0.010867499999999999,
+  "input_tokens": 2633,
+  "output_tokens": 532,
+  "total_tokens": 3165,
+  "cost": 0.0119025,
   "status": "OK",
-  "request_time": 18
+  "request_time": 19
 }

@@ -1,0 +1,52 @@
+{
+  "photo_id": "32044156513376",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Predella: Adoration of Magi",
+        "artist": {
+          "name": "Costa",
+          "listed": true
+        },
+        "date": "1499",
+        "dimensions": {
+          "panel": {
+            "original": "cm. 67 x 179",
+            "cm": "67cm x 179cm"
+          }
+        },
+        "repository": {
+          "name": "Brera",
+          "city": "Milan",
+          "country": "IT",
+          "identifier": "429"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "Ferrara 1933 n. 170"
+        ],
+        "provenance": [
+          "Predella panel to the Nativity by Fr. Francia, painted for the church of the Misericordia in Bologna"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Inscribed: LAVRENTIVS COSTA 1499"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 254,
+  "total_tokens": 2887,
+  "cost": 0.23557499999999998,
+  "status": "OK",
+  "request_time": 36
+}

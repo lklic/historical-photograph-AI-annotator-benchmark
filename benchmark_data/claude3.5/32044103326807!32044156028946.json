@@ -6,8 +6,7 @@
       "back": {
         "title": "Adam & Eve",
         "artist": {
-          "name": "Tintoretto",
-          "listed": false
+          "name": "Tintoretto"
         },
         "repository": {
           "name": "National Gallery of Canada",
@@ -18,22 +17,24 @@
       },
       "history": {
         "provenance": [
-          "in Venetian Art New Gallery 1895"
+          "in Venetian Art",
+          "New Gallery 1895 London Blackdes. East"
         ]
       }
     },
     "additional_annotations": {
       "back": [
-        "London blades",
-        "blades each",
-        "N.G.B Canada"
+        "N.G.B Canada",
+        "Is this the crown day picture supposed",
+        "London Blades",
+        "Blackl. rested t. Tintoretto"
       ]
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 183,
-  "total_tokens": 4087,
-  "cost": 0.014457000000000001,
+  "input_tokens": 3983,
+  "output_tokens": 209,
+  "total_tokens": 4192,
+  "cost": 0.015084000000000002,
   "status": "OK",
-  "request_time": 6
+  "request_time": 8
 }

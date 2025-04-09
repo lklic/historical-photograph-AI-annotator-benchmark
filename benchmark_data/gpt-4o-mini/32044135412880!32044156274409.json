@@ -4,23 +4,23 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Madonna e S. Antonio",
+        "title": "Madonna ST Anthony",
         "artist": "Pietro Facini",
         "date": "1600",
-        "inscriptions": "Pietro Facini",
+        "inscriptions": "Inscribed at the bottom of the page: PIETRO FACINI",
         "repository": {
           "name": "Fogg Art Museum",
           "city": "Cambridge",
           "state": "MA",
-          "country": "USA",
+          "country": "US",
           "identifier": "1932.263"
         },
         "materials": "Pen & ink over red crayon",
-        "full_text": ""
+        "full_text": "Pietro Facini Madonna ST Anthony Inscr. 31.363 Pen & ink over red crayon 12 1/2\" x 9 3/4\" cm. 31 x 24.7"
       },
       "back": {
         "title": "P. Facini",
-        "addtional_title": "Madonna appearing to St Anthony",
+        "additional_title": "Madonna appearing to ST Anthony",
         "artist": {
           "name": "P. Facini",
           "listed": false,
@@ -37,10 +37,11 @@
           "name": "Fogg Art Museum",
           "city": "Cambridge",
           "state": "MA",
-          "country": "USA",
+          "country": "US",
           "identifier": "1932.263",
           "stamp": "",
-          "gift": "Charles A. Loeser Bequest"
+          "gift": "Charles A. Loeser Bequest",
+          "ex": ""
         },
         "materials": ""
       },
@@ -50,10 +51,10 @@
       "history": {
         "exhibitions": [],
         "provenance": [
-          "prov: Lele Call (L. 2015)"
+          "Prov: Lele Call (L. 2092)"
         ],
         "literature": [
-          "lit: Mondan-Sach's cat. n.84"
+          "Sit: Mondan-Sachs cat. n. 84"
         ],
         "loans": [],
         "attribution": []
@@ -66,14 +67,13 @@
           "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
           "name": "",
           "identifier": "",
-          "stamp": "",
+          "stamp": "FOTOTECA BERENSON VILLA I TATTI FIRENZE",
           "alinari_id": "",
           "anderson_id": ""
         },
@@ -81,14 +81,14 @@
       }
     },
     "additional_annotations": {
-      "front": [],
+      "front": "Pietro Facini Madonna ST Anthony Inscr. 31.363 Pen & ink over red crayon 12 1/2\" x 9 3/4\" cm. 31 x 24.7",
       "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 525,
-  "total_tokens": 3080,
-  "cost": 0.013965,
+  "input_tokens": 2633,
+  "output_tokens": 640,
+  "total_tokens": 3273,
+  "cost": 0.015579,
   "status": "OK",
-  "request_time": 17
+  "request_time": 10
 }

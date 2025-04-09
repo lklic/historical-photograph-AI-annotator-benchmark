@@ -160,6 +160,9 @@ const ModelComparisonChart = ({ data, metric, formatValue = (v) => v }) => {
 const ResultsBrowser = ({ data, onBack }) => {
   const imageIds = Object.keys(data.analyses);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [editedFields, setEditedFields] = useState({});
+  const [isValidating, setIsValidating] = useState(true); // Default validation on
+  const [isSaving, setIsSaving] = useState(false);
   const currentImageId = imageIds[currentIndex];
   const imageData = data.analyses[currentImageId];
   const models = Object.keys(data.overall_metrics);
@@ -167,11 +170,91 @@ const ResultsBrowser = ({ data, onBack }) => {
   const getStatusColor = (status) => {
     switch (status) {
       case 'correct': return 'bg-green-100';
-      case 'incorrect_field': return 'bg-yellow-100';
       case 'incorrect_transcription': return 'bg-orange-100';
       case 'missing': return 'bg-red-100';
       default: return '';
     }
+  };
+
+  const handleSaveChanges = async () => {
+    setIsSaving(true);
+    
+    try {
+      // Group edits by image ID for efficiency
+      const editsByImage = {};
+      
+      Object.entries(editedFields).forEach(([fieldPath, value]) => {
+        // Extract image ID from the current image being viewed
+        const imageId = imageIds[currentIndex];
+        
+        if (!editsByImage[imageId]) {
+          editsByImage[imageId] = {};
+        }
+        
+        editsByImage[imageId][fieldPath] = value;
+      });
+      
+      console.log('Sending updates:', editsByImage);
+      
+      // Send updates to server
+      const response = await fetch('/api/update-ground-truth', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          updates: editsByImage,
+          validate: isValidating
+        }),
+      });
+      
+      // Get the response text first
+      const responseText = await response.text();
+      console.log('Response text:', responseText);
+      
+      let responseData;
+      try {
+        // Try to parse the response as JSON if it's not empty
+        responseData = responseText ? JSON.parse(responseText) : {};
+      } catch (jsonError) {
+        console.error('Error parsing response:', jsonError);
+        throw new Error(`Invalid response from server: ${responseText}`);
+      }
+      
+      if (!response.ok) {
+        throw new Error(responseData.error || 'Failed to save changes');
+      }
+      
+      // Clear edited fields after successful save
+      setEditedFields({});
+      
+      // Fetch the updated data
+      try {
+        const updatedData = await fetch('/data/analysis.json').then(res => res.json());
+        // Update the data state
+        setData(updatedData);
+      } catch (fetchError) {
+        console.error('Error fetching updated data:', fetchError);
+      }
+      
+      // Go to the next image if not at the last image
+      if (currentIndex < imageIds.length - 1) {
+        setCurrentIndex(currentIndex + 1);
+      }
+      
+    } catch (error) {
+      console.error('Error saving changes:', error);
+      alert(`Error saving changes: ${error.message}`);
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
+  const handleFieldEdit = (fieldPath, value) => {
+    setEditedFields({
+      ...editedFields,
+      [fieldPath]: value
+    });
   };
 
   const goToNext = () => {
@@ -186,7 +269,9 @@ const ResultsBrowser = ({ data, onBack }) => {
     }
   };
 
-  const formatFieldValue = (value) => {
+  const formatFieldValue = (value, listIndex = null) => {
+    console.log('formatFieldValue called with:', { value, listIndex });
+    
     if (value === null || value === '""' || value === '[]' || value === '') return 'null';
     if (Array.isArray(value)) {
       return (
@@ -199,9 +284,44 @@ const ResultsBrowser = ({ data, onBack }) => {
         </div>
       );
     }
-    if (typeof value === 'string') return value.replace(/['"]/g, '');
-    return String(value);
+    
+    let result;
+    if (typeof value === 'string') {
+      const formattedValue = value.replace(/['"]/g, '');
+      result = listIndex !== null ? `[${listIndex}] ${formattedValue}` : formattedValue;
+    } else {
+      result = listIndex !== null ? `[${listIndex}] ${String(value)}` : String(value);
+    }
+    
+    console.log('formatFieldValue returning:', result);
+    return result;
   };
+
+  // Group fields by parent path for list items
+  console.log('All fields:', imageData.fields);
+  console.log('List items:', imageData.fields.filter(f => f.is_list_item));
+  
+  const groupedFields = imageData.fields.reduce((acc, field) => {
+    if (field.is_list_item) {
+      console.log('Processing list item:', field);
+      if (!acc[field.parent_path]) {
+        acc[field.parent_path] = [];
+      }
+      acc[field.parent_path].push(field);
+    } else {
+      acc[field.field_path] = [field];
+    }
+    return acc;
+  }, {});
+
+  // Sort list items by index
+  Object.keys(groupedFields).forEach(key => {
+    if (groupedFields[key].length > 1) {
+      groupedFields[key].sort((a, b) => a.list_index - b.list_index);
+    }
+  });
+  
+  console.log('Grouped fields:', groupedFields);
 
   return (
     <div className="flex flex-col h-screen">
@@ -212,7 +332,34 @@ const ResultsBrowser = ({ data, onBack }) => {
             Image {currentIndex + 1} of {imageIds.length}: {currentImageId}
           </p>
         </div>
-        <div className="space-x-4">
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center mr-4">
+            <label className="flex items-center cursor-pointer">
+              <div className="mr-2 text-sm">Validation</div>
+              <div className="relative">
+                <input 
+                  type="checkbox" 
+                  className="sr-only" 
+                  checked={isValidating}
+                  onChange={() => setIsValidating(!isValidating)} 
+                />
+                <div className={`block w-10 h-6 rounded-full ${isValidating ? 'bg-green-400' : 'bg-gray-400'}`}></div>
+                <div className={`absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition ${isValidating ? 'transform translate-x-4' : ''}`}></div>
+              </div>
+            </label>
+          </div>
+          <button
+            id="save-button"
+            onClick={handleSaveChanges}
+            disabled={Object.keys(editedFields).length === 0 || isSaving}
+            className={`px-4 py-2 text-white rounded ${
+              Object.keys(editedFields).length === 0 || isSaving
+                ? 'bg-gray-300' 
+                : 'bg-green-500 hover:bg-green-600'
+            }`}
+          >
+            {isSaving ? 'Saving...' : 'Save Changes'}
+          </button>
           <button
             onClick={onBack}
             className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
@@ -260,22 +407,107 @@ const ResultsBrowser = ({ data, onBack }) => {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {imageData.fields.map((field, idx) => (
-                <tr key={idx}>
-                  <td className="px-6 py-4 break-words font-medium">{field.field_path}</td>
-                  <td className="px-6 py-4 break-words whitespace-pre-line">
-                    {formatFieldValue(field.ground_truth)}
-                  </td>
-                  {models.map(model => (
-                    <td 
-                      key={model}
-                      className={`px-6 py-4 break-words whitespace-pre-line ${getStatusColor(field.status[model])}`}
-                    >
-                      {formatFieldValue(field.model_values[model])}
+              {/* Final solution */}
+              
+              {/* Regular fields (non-list items) */}
+              {imageData.fields
+                .filter(field => !field.is_list_item && field.field_path !== 'artwork.history.literature' && field.field_path !== 'artwork.history.provenance')
+                .map(field => (
+                  <tr key={field.field_path} className="bg-white">
+                    <td className="px-6 py-4 break-words font-medium">
+                      {field.field_path}
                     </td>
-                  ))}
-                </tr>
-              ))}
+                    <td className="px-6 py-4 break-words whitespace-pre-line">
+                      <textarea
+                        className="w-full p-1 border rounded"
+                        value={editedFields[field.field_path] !== undefined 
+                          ? editedFields[field.field_path] 
+                          : formatFieldValue(field.ground_truth)}
+                        onChange={(e) => handleFieldEdit(field.field_path, e.target.value)}
+                      />
+                    </td>
+                    {models.map(model => (
+                      <td 
+                        key={model}
+                        className={`px-6 py-4 break-words whitespace-pre-line ${getStatusColor(field.status[model])}`}
+                      >
+                        {formatFieldValue(field.model_values[model])}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              
+              {/* Literature section header */}
+              <tr className="bg-blue-200">
+                <td colSpan={models.length + 2} className="px-6 py-2 font-bold">
+                  Literature
+                </td>
+              </tr>
+              
+              {/* Literature list items */}
+              {imageData.fields
+                .filter(field => field.field_path.startsWith('artwork.history.literature['))
+                .sort((a, b) => a.list_index - b.list_index)
+                .map(listField => (
+                  <tr key={`literature-final-${listField.list_index}`} className="bg-blue-50">
+                    <td className="px-6 py-2 pl-10 break-words font-medium text-sm text-gray-600">
+                      Literature [{listField.list_index}]
+                    </td>
+                    <td className="px-6 py-2 break-words whitespace-pre-line">
+                      <textarea
+                        className="w-full p-1 border rounded"
+                        value={editedFields[listField.field_path] !== undefined 
+                          ? editedFields[listField.field_path] 
+                          : listField.ground_truth}
+                        onChange={(e) => handleFieldEdit(listField.field_path, e.target.value)}
+                      />
+                    </td>
+                    {models.map(model => (
+                      <td 
+                        key={model}
+                        className={`px-6 py-2 break-words whitespace-pre-line ${getStatusColor(listField.status[model])}`}
+                      >
+                        {listField.model_values[model]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              
+              {/* Provenance section header */}
+              <tr className="bg-green-200">
+                <td colSpan={models.length + 2} className="px-6 py-2 font-bold">
+                  Provenance
+                </td>
+              </tr>
+              
+              {/* Provenance list items */}
+              {imageData.fields
+                .filter(field => field.field_path.startsWith('artwork.history.provenance['))
+                .sort((a, b) => a.list_index - b.list_index)
+                .map(listField => (
+                  <tr key={`provenance-final-${listField.list_index}`} className="bg-green-50">
+                    <td className="px-6 py-2 pl-10 break-words font-medium text-sm text-gray-600">
+                      Provenance [{listField.list_index}]
+                    </td>
+                    <td className="px-6 py-2 break-words whitespace-pre-line">
+                      <textarea
+                        className="w-full p-1 border rounded"
+                        value={editedFields[listField.field_path] !== undefined 
+                          ? editedFields[listField.field_path] 
+                          : listField.ground_truth}
+                        onChange={(e) => handleFieldEdit(listField.field_path, e.target.value)}
+                      />
+                    </td>
+                    {models.map(model => (
+                      <td 
+                        key={model}
+                        className={`px-6 py-2 break-words whitespace-pre-line ${getStatusColor(listField.status[model])}`}
+                      >
+                        {listField.model_values[model]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
             </tbody>
           </table>
         </div>
@@ -334,7 +566,6 @@ const Summary = ({ data, onBrowseResults }) => {
               <tr>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Model</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Accuracy</th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Incorrect Field</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Incorrect Transcription</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Missing</th>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Cost/Image</th>
@@ -346,7 +577,6 @@ const Summary = ({ data, onBrowseResults }) => {
                 <tr key={model}>
                   <td className="px-6 py-4 whitespace-nowrap font-medium">{model}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{formatPercent(m.accuracy)}</td>
-                  <td className="px-6 py-4 whitespace-nowrap">{formatPercent(m.incorrect_field_rate)}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{formatPercent(m.incorrect_transcription_rate)}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{formatPercent(m.missing_rate)}</td>
                   <td className="px-6 py-4 whitespace-nowrap">{formatCurrency(m.cost_per_image)}</td>
@@ -368,12 +598,26 @@ const App = () => {
   useEffect(() => {
     fetch('/data/analysis.json')
       .then(response => response.json())
-      .then(setData)
+      .then(data => {
+        console.log('Loaded analysis data:', data);
+        // Log a sample list item if available
+        if (data && data.analyses) {
+          const firstImageId = Object.keys(data.analyses)[0];
+          const firstImage = data.analyses[firstImageId];
+          const listItem = firstImage.fields.find(f => f.is_list_item);
+          if (listItem) {
+            console.log('Sample list item:', listItem);
+          }
+        }
+        setData(data);
+      })
       .catch(error => console.error('Error loading data:', error));
   }, []);
 
   if (!data) return <div className="p-6">Loading...</div>;
 
+  console.log('Current view:', view);
+  
   return (
     <div className="min-h-screen bg-gray-100">
       {view === 'summary' ? (

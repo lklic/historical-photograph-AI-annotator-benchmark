@@ -4,24 +4,25 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Predella: Adoration of the Magi",
-        "artist": "Francia",
+        "title": "Adorazione dei Magi",
+        "artist": "Francesco Francia",
         "date": "1499",
-        "inscriptions": "L.N. REMTIVS COSTA",
+        "inscriptions": "LN REMTIVIS COTA 1499",
         "repository": {
-          "name": "Church of the Misericordia",
-          "city": "Bologna",
+          "name": "Museo di Capodimonte",
+          "city": "Naples",
+          "state": "NA",
           "country": "IT",
-          "identifier": ""
+          "identifier": "429"
         },
         "materials": "",
         "full_text": ""
       },
       "back": {
-        "title": "",
-        "addtional_title": "",
+        "title": "Adoration of the Magi",
+        "additional_title": "",
         "artist": {
-          "name": "Francia",
+          "name": "Francesco Francia",
           "listed": true,
           "additional_annotations": ""
         },
@@ -49,9 +50,10 @@
           "city": "Milan",
           "state": "MI",
           "country": "IT",
-          "identifier": "429",
+          "identifier": "",
           "stamp": "",
-          "gift": ""
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -62,14 +64,14 @@
         "exhibitions": [
           "exh. Ferrara 1933 n. 170"
         ],
-        "provenance": [
-          "prov. Predella panel to the Nativity by Fr. Francia, painted for the Church of the Misericordia in Bologna."
-        ],
+        "provenance": [],
         "literature": [
-          "lit. Listed Costa sd.d. 1499"
+          "listed Costa sdq. 1499"
         ],
         "loans": [],
-        "attribution": []
+        "attribution": [
+          "Predella: Adoration of Magi"
+        ]
       }
     },
     "photograph": {
@@ -79,8 +81,7 @@
           "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
-        },
-        "rotation": null
+        }
       },
       "back": {
         "photographer": {
@@ -94,14 +95,14 @@
       }
     },
     "additional_annotations": {
-      "front": [],
+      "front": "",
       "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 560,
-  "total_tokens": 3115,
-  "cost": 0.014384999999999998,
+  "input_tokens": 2633,
+  "output_tokens": 553,
+  "total_tokens": 3186,
+  "cost": 0.014535,
   "status": "OK",
-  "request_time": 15
+  "request_time": 8
 }

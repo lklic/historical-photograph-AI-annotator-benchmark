@@ -17,51 +17,48 @@
         },
         "repository": {
           "name": "Art Institute",
-          "city": "CHICAGO",
+          "city": "Chicago",
           "state": "IL",
           "country": "USA",
-          "identifier": "47.116",
-          "gift": "Worcester Gift"
+          "identifier": "47.116"
         },
         "materials": "tempera on panel"
       },
       "history": {
         "exhibitions": [
-          "Chicago (ILL.), Art Institute, 1930-37",
-          "June 1 - Nov. 1, 1933, n\u00b0 87, cat.",
-          "June 1 - Nov. 1, 1934, n\u00b0 35, cat."
+          "Chicago (ILL), Art Institute, 1930-37",
+          "June 2 - Nov. 2, 1933, n\u00b0 87, cat.",
+          "June 2 - Nov. 2, 1934, n\u00b0 35, cat."
         ],
         "provenance": [
-          "Grimaldi Coll. Venezia",
-          "Roerich Museum, New York",
+          "Grimaldi Coll Venice",
+          "Roerick Museum, New York",
           "Roerich Sale, New York, 1930, March 28",
           "Mr. & Mrs. Worcester"
         ],
-        "literature": [
-          "Roerich Sale Cat., T.J. Matthew Jr. (School of Lorenzo Veneziano)",
-          "Venezia (Paolo Veneziano & his sons)"
-        ],
-        "loans": [
-          "MR. AND MRS. C. H. WORCESTER COLLECTION"
+        "attribution": [
+          "Roerich Sale Cat., T.J. Mathey Jr. (School of Lorenzo Veneziano)",
+          "Venice (Paolo Veneziano & his sons)"
         ]
       }
     },
     "photograph": {
       "back": {
-        "identifier": "C9981",
         "yellow_dot": true
       }
     },
     "additional_annotations": {
       "back": [
-        "Companion panel 'St. Augustine & St. Peter' was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox Swedish, on loan at the Art Institute of Chicago"
+        "Companion panel 'St. Augustine & St. Peter' was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox Swedish, on loan at the Art Institute of Chicago",
+        "Worcester Gift Art Institute CHICAGO (Ill.)",
+        "If Published the following credit line must be added: Courtesy The Art Institute of Chicago."
       ]
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 518,
-  "total_tokens": 4422,
-  "cost": 0.019482,
+  "input_tokens": 3983,
+  "output_tokens": 506,
+  "total_tokens": 4489,
+  "cost": 0.019539,
   "status": "OK",
-  "request_time": 12
+  "request_time": 15
 }

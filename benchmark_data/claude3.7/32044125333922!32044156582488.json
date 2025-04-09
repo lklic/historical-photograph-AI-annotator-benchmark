@@ -1,0 +1,49 @@
+{
+  "photo_id": "32044156582488",
+  "model": "claude-3-7-sonnet-20250219",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "FIRENZE - Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \u00ab L'Annunziazione e un Santo \u00bb (XIV\u00ba secolo).",
+        "date": "14th century",
+        "full_text": "(Ed.ne Alinari) No 29209. FIRENZE - Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \u00ab L'Annunziazione e un Santo \u00bb (XIV\u00ba secolo)."
+      },
+      "back": {
+        "title": "Tabernacle: \"Annunciation with Julian & Ansanus\" (detail)",
+        "artist": {
+          "name": "Paolo Schiavo",
+          "listed": true
+        },
+        "repository": {
+          "name": "Church of San Pio X al Sodo",
+          "city": "Florence",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "29209"
+        }
+      },
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "(Ed.ne Alinari) No 29209. FIRENZE - Dintorni. Tabernacolo presso Castello. Una parte dell'affresco \u00ab L'Annunziazione e un Santo \u00bb (XIV\u00ba secolo).",
+      "back": [
+        "Castello FIRENZE",
+        "6"
+      ]
+    }
+  },
+  "input_tokens": 3984,
+  "output_tokens": 416,
+  "total_tokens": 4400,
+  "cost": 0.018192,
+  "status": "OK",
+  "request_time": 11
+}

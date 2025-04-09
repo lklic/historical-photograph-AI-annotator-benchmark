@@ -5,12 +5,13 @@
     "artwork": {
       "front": {
         "title": "Dintorni",
-        "artist": "N. F. R. R. X.",
-        "date": "XVIII secolo",
-        "inscriptions": "Firenze",
+        "artist": "N. TIEPOLO",
+        "date": "XVIII",
+        "inscriptions": "PARTE DELLA DI CASTELLO",
         "repository": {
           "name": "Villa Reale di Castello",
           "city": "Firenze",
+          "state": "",
           "country": "IT",
           "identifier": ""
         },
@@ -20,11 +21,11 @@
       "back": {
         "title": "Villa di Castello",
         "artist": {
-          "name": "",
+          "name": "N. TIEPOLO",
           "listed": false,
           "additional_annotations": ""
         },
-        "date": "",
+        "date": "XVIII",
         "dimensions": {
           "artwork": {
             "original": "",
@@ -44,13 +45,14 @@
           }
         },
         "repository": {
-          "name": "Fototeca Berenson",
-          "city": "Firenze",
+          "name": "Villa Reale di Castello",
+          "city": "Florence",
           "state": "FI",
           "country": "IT",
           "identifier": "",
-          "stamp": "Fototeca Berenson Firenze",
-          "gift": ""
+          "stamp": "Fototeca Berenson",
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -74,30 +76,26 @@
           "anderson_id": ""
         }
       },
-      "rotation": null
-    },
-    "back": {
-      "photographer": {
-        "name": "",
-        "identifier": "",
-        "stamp": "",
-        "alinari_id": "",
-        "anderson_id": ""
-      },
-      "yellow_dot": false
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "Fototeca Berenson",
+          "alinari_id": "30523",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
     },
     "additional_annotations": {
-      "front": [],
-      "back": [
-        "1922",
-        "Firenze"
-      ]
+      "front": "FIRENZE.",
+      "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 514,
-  "total_tokens": 3069,
-  "cost": 0.013833,
+  "input_tokens": 2633,
+  "output_tokens": 531,
+  "total_tokens": 3164,
+  "cost": 0.014270999999999999,
   "status": "OK",
-  "request_time": 15
+  "request_time": 11
 }

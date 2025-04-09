@@ -1,0 +1,68 @@
+{
+  "photo_id": "32044156513368",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Portrait of Eleonora Gonzaga duchess of Urbino (?)",
+        "artist": {
+          "name": "Lorenzo Costa",
+          "listed": true
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "17 \u00be x 13 \u00be\"",
+            "cm": "45.09cm x 34.93cm"
+          },
+          "panel": {
+            "original": "27 x 23\"",
+            "cm": "68.58cm x 58.42cm"
+          }
+        },
+        "repository": {
+          "name": "The Currier Gallery of Art",
+          "city": "Manchester",
+          "state": "NH",
+          "country": "US",
+          "stamp": "PLEASE RETURN TO THE CURRIER GALLERY OF ART 192 ORANGE STREET MANCHESTER, N. H."
+        },
+        "materials": "Oil on canvas (transferred from wood)"
+      },
+      "history": {
+        "provenance": [
+          "Private collection, Milano",
+          "Thurn on Rheidenwerstein Frankfort - M, 1927",
+          "Kleinberger Galleries, N.Y., 1927",
+          "D.S. Bach collection, N.Y., 1927-1945",
+          "Nicholas M. Acquarich, N.Y., 1945-1947",
+          "The Currier Gallery of Art, 1947"
+        ],
+        "literature": [
+          "A. Venturi: St.A.St. VII (3) p. 814 (1914)",
+          "PANTHEON 1928 January-July p. 237",
+          "C. Gnoman: Lorenzo Costa",
+          "Publications of the Hermitage: Western European Painting (II-13161) p. 198"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "SANFORD PHOTO Manchester, N.H."
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "cp. with Hampton court - 355 (295) [232]"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 486,
+  "total_tokens": 3119,
+  "cost": 0.270375,
+  "status": "OK",
+  "request_time": 63
+}

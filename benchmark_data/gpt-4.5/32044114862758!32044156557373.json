@@ -1,0 +1,70 @@
+{
+  "photo_id": "32044156557373",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "St. John the Baptist & St. Catherine of Alexandria",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": true
+        },
+        "materials": "Tempera on panel",
+        "dimensions": {
+          "artwork": {
+            "original": "30\" x 19 1/4\"",
+            "cm": "76.2cm x 48.9cm"
+          }
+        },
+        "repository": {
+          "name": "Art Institute",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US",
+          "gift": "Worcester Gift"
+        }
+      },
+      "history": {
+        "provenance": [
+          "Grimani Coll, Venezia",
+          "Roerich Museum, New York",
+          "Roerich Sale, New York, 1930, March 28",
+          "Mr. & Mrs. Worcester"
+        ],
+        "exhibitions": [
+          "Chicago (ILL.). Art Institute. 1930-37",
+          "June 1 - Nov. 1, 1933, n\u00b087, cat.",
+          "June 7 - Nov. 1, 1934, n\u00b035 cat."
+        ],
+        "attribution": [
+          "Roerich Sale Cat. F.J. Mather, Jr. (School of Lorenzo Veneziano)",
+          "Venezia (Paolo Veneziano or his Son)"
+        ],
+        "loans": [
+          "MR. AND MRS. C. H. WORCESTER COLLECTION"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "name": "The Art Institute of Chicago Photograph Department",
+          "identifier": "C9981",
+          "stamp": "If Published the following credit line must be added: Courtesy The Art Institute of Chicago."
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "(a companion panel \"St. Augustine & St. Peter\" was in the Roerich Sale; now property of Mrs. Catherine Barker Hickox, New York, on loan at the Art Institute of Chicago)"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 490,
+  "total_tokens": 3123,
+  "cost": 0.27097499999999997,
+  "status": "OK",
+  "request_time": 84
+}

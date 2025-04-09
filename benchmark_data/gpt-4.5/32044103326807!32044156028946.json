@@ -1,0 +1,35 @@
+{
+  "photo_id": "32044156028946",
+  "model": "gpt-4.5-preview-2025-02-27",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Adam & Eve",
+        "artist": {
+          "name": "Tintoretto",
+          "listed": true
+        },
+        "repository": {
+          "name": "National Gallery of Canada",
+          "city": "Ottawa",
+          "country": "CA",
+          "identifier": "n\u00b02364"
+        }
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Is this the Crawshay picture referred to in \"Venetian Art\" 1895 New Gallery, East London Blades, & Blades",
+        "N.G.B Canada",
+        "Canada",
+        "Adam & Eve"
+      ]
+    }
+  },
+  "input_tokens": 2633,
+  "output_tokens": 155,
+  "total_tokens": 2788,
+  "cost": 0.22072499999999998,
+  "status": "OK",
+  "request_time": 24
+}

@@ -4,12 +4,15 @@
   "annotations": {
     "artwork": {
       "front": {
+        "title": "Museo Civico, Piatti di M. Giorgio, Palazzo dell'Antico Bologna",
+        "date": "1532",
+        "inscriptions": "1532 M.o G.o Prov de mastro",
         "repository": {
           "name": "Museo Civico",
           "city": "Bologna",
           "country": "ITA"
         },
-        "inscriptions": "1532"
+        "full_text": "282618. Museo Civico, Piatti di M. Giorgio, Palazzo dell'Antico Bologna"
       },
       "back": {
         "title": "The birth of Adonis",
@@ -28,15 +31,15 @@
     "photograph": {
       "front": {
         "photographer": {
-          "alinari_id": "25268"
+          "identifier": "282618"
         }
       }
     }
   },
-  "input_tokens": 3904,
-  "output_tokens": 215,
-  "total_tokens": 4119,
-  "cost": 0.014937,
+  "input_tokens": 3983,
+  "output_tokens": 296,
+  "total_tokens": 4279,
+  "cost": 0.016389,
   "status": "OK",
-  "request_time": 6
+  "request_time": 8
 }

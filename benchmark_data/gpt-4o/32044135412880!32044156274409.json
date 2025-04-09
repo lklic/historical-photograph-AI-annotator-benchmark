@@ -5,49 +5,52 @@
     "artwork": {
       "front": {
         "inscriptions": "Pietro Facini",
-        "full_text": "39"
+        "full_text": "Pietro Facini 39"
       },
       "back": {
-        "title": "Madonna appearing to St Anthony",
+        "title": "Madonna & St Anthony",
+        "additional_title": "Madonna appearing to St Anthony",
         "artist": {
           "name": "Pietro Facini",
           "listed": false
         },
         "dimensions": {
           "artwork": {
-            "original": "12 1/4\" x 9 3/4\"",
-            "cm": "31cm x 24.7cm"
+            "original": "12 1/4 x 9 3/4\"",
+            "cm": "31 x 24.7cm"
           }
         },
-        "materials": "Pen & Ink over red crayon"
+        "materials": "Pen & ink over red crayon",
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "Cambridge",
+          "state": "MA",
+          "country": "US",
+          "gift": "Charles A. Loeser Bequest",
+          "identifier": "1932.263"
+        }
       },
       "history": {
         "provenance": [
           "Lele Coll. (L. 2092)"
         ],
         "literature": [
-          "Mondan-Sachs cat. n.84"
+          "Mordano-Sachs cat. no. 84"
         ]
       }
     },
-    "photograph": {
-      "back": {
-        "stamp": "Fogg Art Museum Harvard University",
-        "yellow_dot": false
-      }
-    },
     "additional_annotations": {
+      "front": "Pietro Facini 39",
       "back": [
-        "P. Facini Madonna appearing to St Anthony",
-        "Charles A. Loeser Bequest 1932.263",
-        "Fogg Art Museum CAMBRIDGE (Mass.)"
+        "P. Facini. Madonna appearing to St Anthony",
+        "Charles A. Loeser Bequest 1932.263 Fogg Art Museum CAMBRIDGE (Mass.)"
       ]
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 281,
-  "total_tokens": 2836,
-  "cost": 0.0091975,
+  "input_tokens": 2633,
+  "output_tokens": 338,
+  "total_tokens": 2971,
+  "cost": 0.0099625,
   "status": "OK",
-  "request_time": 16
+  "request_time": 8
 }

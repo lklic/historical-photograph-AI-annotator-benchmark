@@ -4,27 +4,27 @@
   "annotations": {
     "artwork": {
       "front": {
-        "title": "Tavola di Misciagiovanni",
-        "artist": "T. M. L.",
+        "title": "",
+        "artist": "",
         "date": "1532",
-        "inscriptions": "15-32\nMP",
+        "inscriptions": "MDP \nFrig. Dr. manichen?",
         "repository": {
           "name": "Museo Civico",
           "city": "Bologna",
-          "state": "BO",
+          "state": "",
           "country": "IT",
-          "identifier": ""
+          "identifier": "920618"
         },
         "materials": "",
-        "full_text": ""
+        "full_text": "920618. Museo Civico. Bologna. Fotog. dell'Emilia Bologna."
       },
       "back": {
-        "title": "The Birth of Adonis",
-        "addtional_title": "",
+        "title": "",
+        "additional_title": "",
         "artist": {
-          "name": "Triptych II",
+          "name": "",
           "listed": true,
-          "additional_annotations": "listed on design of Timoteo Viti"
+          "additional_annotations": "listed on design of Timoteo Viti the birth of Adonis?"
         },
         "date": "",
         "dimensions": {
@@ -48,11 +48,12 @@
         "repository": {
           "name": "Museo Civico",
           "city": "Bologna",
-          "state": "BO",
+          "state": "",
           "country": "IT",
           "identifier": "",
           "stamp": "",
-          "gift": ""
+          "gift": "",
+          "ex": ""
         },
         "materials": ""
       },
@@ -70,33 +71,32 @@
     "photograph": {
       "front": {
         "photographer": {
-          "name": "Emilia Bologna",
+          "name": "Emilia",
           "identifier": "",
           "alinari_id": "",
           "anderson_id": ""
         }
       },
-      "rotation": null
-    },
-    "back": {
-      "photographer": {
-        "name": "Berenson",
-        "identifier": "3 2044 157 332 826",
-        "stamp": "FOTOTECA BERENSON FIRENZE I TATTI SETTIGNANO",
-        "alinari_id": "",
-        "anderson_id": ""
-      },
-      "yellow_dot": false
+      "back": {
+        "photographer": {
+          "name": "",
+          "identifier": "",
+          "stamp": "",
+          "alinari_id": "",
+          "anderson_id": ""
+        },
+        "yellow_dot": false
+      }
     },
     "additional_annotations": {
-      "front": [],
+      "front": "920618. Museo Civico. Bologna. Fotog. dell'Emilia Bologna.",
       "back": []
     }
   },
-  "input_tokens": 2555,
-  "output_tokens": 535,
-  "total_tokens": 3090,
-  "cost": 0.014085,
+  "input_tokens": 2633,
+  "output_tokens": 519,
+  "total_tokens": 3152,
+  "cost": 0.014127,
   "status": "OK",
-  "request_time": 15
+  "request_time": 16
 }
