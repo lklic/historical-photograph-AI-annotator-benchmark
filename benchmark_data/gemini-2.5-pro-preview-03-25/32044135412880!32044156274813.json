@@ -1,0 +1,52 @@
+{
+  "photo_id": "32044156274813",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "FIRENZE - *Dintorni*. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello.",
+        "artist": "MARIELLA DE CAIVERA",
+        "date": "XVIII\u00b0 secolo",
+        "inscriptions": "MARIELLA DE CAIVERA Pinx.",
+        "repository": {
+          "name": "Villa Reale di Castello",
+          "city": "FIRENZE",
+          "country": "IT"
+        },
+        "full_text": "(Ed. Alinari) N.\u00b0 30523. FIRENZE - *Dintorni*. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo)."
+      },
+      "back": {
+        "artist": {
+          "name": "Fanciulla de' Caivera"
+        },
+        "repository": {
+          "name": "Villa di Castello",
+          "city": "FLORENCE",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "name": "Alinari",
+          "alinari_id": "30523"
+        }
+      },
+      "back": {}
+    },
+    "additional_annotations": {
+      "front": "(Ed. Alinari) N.\u00b0 30523. FIRENZE - *Dintorni*. Villa Reale di Castello. Pesche e Pere che si coltivavano a Castello. (XVIII\u00b0 secolo).",
+      "back": [
+        "Macchini / Box-set / 1942",
+        "FLORENCE (Environs)"
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 1443,
+  "total_tokens": 3200,
+  "cost": 0.016626250000000002,
+  "status": "OK",
+  "request_time": 14
+}

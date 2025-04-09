@@ -8,11 +8,12 @@
       },
       "dimensions": {
         "artwork": {
-          "original": "17¼\" x 13¼\" (27\" x 23\" framed)",
+          "original": "17 1/4 x 13 1/4",
           "cm": "43.8cm x 33.7cm"
         },
         "frame": {
-          "original": "27 x 23"
+          "original": "27 x 23",
+          "cm": "68.6 x 58.4"
         }
       },
       "repository": {

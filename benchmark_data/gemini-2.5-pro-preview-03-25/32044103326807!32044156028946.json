@@ -1,0 +1,54 @@
+{
+  "photo_id": "32044156028946",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "back": {
+        "title": "Adam & Eve.",
+        "artist": {
+          "name": "J. Tintoretto",
+          "listed": true
+        },
+        "repository": {
+          "name": "The National Gallery of Canada",
+          "city": "OTTAWA",
+          "country": "CA",
+          "identifier": "n\u00b02364"
+        }
+      },
+      "history": {
+        "exhibitions": [
+          "New Gallery 1895"
+        ],
+        "literature": [
+          "'Venetian Art'",
+          "London Blader"
+        ],
+        "attribution": [
+          "listed J. Tintoretto"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "n.g.l. Canada",
+        "Tintoretto",
+        "Is this the Crawshay picture supposed?",
+        "Each",
+        "Blada",
+        "I xxxv\u0131"
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 1019,
+  "total_tokens": 2776,
+  "cost": 0.01238625,
+  "status": "OK",
+  "request_time": 11
+}

@@ -38,6 +38,12 @@ MODEL_CONFIGS = {
         model='claude-3-7-sonnet-20250219',
         input_cost_per_million=3.0,
         output_cost_per_million=15.0
+    ),
+    'gemini-2.5-pro-preview-03-25': ProcessingConfig(
+        api_type='gemini',
+        model='gemini-2.5-pro-preview-03-25',
+        input_cost_per_million=1.25,
+        output_cost_per_million=10.0
     )
 }
 

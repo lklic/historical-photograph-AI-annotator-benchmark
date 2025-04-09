@@ -1,0 +1,79 @@
+{
+  "photo_id": "32044156513475",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "full_text": "466"
+      },
+      "back": {
+        "title": "ST. PAUL",
+        "additional_title": "\"St Paul pointing to Heaven in landscape\"",
+        "artist": {
+          "name": "LORENZO COSTA",
+          "listed": true,
+          "additional_annotations": "Ferrarese"
+        },
+        "date": "1460-1535",
+        "dimensions": {
+          "artwork": {
+            "original": "Fig. High 13-3/8\" Wide 10-1/2\"",
+            "cm": "34.0cm x 26.7cm"
+          },
+          "panel": {
+            "original": "13 1/2\" x 10 3/8\"",
+            "cm": "34.3cm x 26.3cm"
+          },
+          "frame": {
+            "original": "19-1/2\" 16-3/8\"",
+            "cm": "49.5cm x 41.6cm"
+          }
+        },
+        "repository": {
+          "name": "Brooks Memorial Art Gallery",
+          "city": "MEMPHIS",
+          "state": "TN",
+          "country": "US",
+          "identifier": "61.94",
+          "gift": "Kress Gift 1958"
+        }
+      },
+      "identifiers": {
+        "kress": "K466"
+      },
+      "history": {
+        "provenance": [
+          "D. Botto. Milan as Boccacino",
+          "From the Chiesa Collection, Milan",
+          "S.H. Kress 1936 (K466)",
+          "N.G.A. Washington (D.C.) n.364",
+          "Samuel H. Kress Collection"
+        ],
+        "literature": [
+          "Longhi (officina p 145) assigns al 1510 + 5"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "photographer": {
+          "stamp": "MURRAY K. KEYES, PHOTOGRAPHER OF PAINTINGS AND ART OBJECTS"
+        },
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "front": "466",
+      "back": [
+        "466 - Panel",
+        "S. Box 19-1/2\" 16-3/8\""
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 2556,
+  "total_tokens": 4313,
+  "cost": 0.02775625,
+  "status": "OK",
+  "request_time": 24
+}

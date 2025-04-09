@@ -5,9 +5,12 @@ import base64
 import httpx
 from pathlib import Path
 from typing import Dict, Any, List
+import io
 from concurrent.futures import ThreadPoolExecutor
 from anthropic import Anthropic
 from openai import OpenAI
+import google.generativeai as genai
+from PIL import Image
 from models_config import ProcessingConfig, MODEL_CONFIGS
 
 class BenchmarkStats:
@@ -50,10 +53,27 @@ class ImageProcessor:
             with open("key.secret", "r") as f:
                 api_key = f.read().strip()
             self.client = OpenAI(api_key=api_key)
-        else:
+        elif self.config.api_type == 'claude':
             with open("claudekey.secret", "r") as f:
                 api_key = f.read().strip()
             self.client = Anthropic(api_key=api_key)
+        elif self.config.api_type == 'gemini':
+            with open("geminikey.secret", "r") as f:
+                api_key = f.read().strip()
+            genai.configure(api_key=api_key)
+            # Safety settings can be adjusted if needed
+            safety_settings = [
+                {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+                {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+            ]
+            self.client = genai.GenerativeModel(
+                self.config.model,
+                safety_settings=safety_settings
+            )
+        else:
+            raise ValueError(f"Unsupported api_type: {self.config.api_type}")
 
     def _get_base64_image(self, url: str) -> str:
         response = httpx.get(url)
@@ -71,9 +91,13 @@ class ImageProcessor:
             try:
                 if self.config.api_type == 'openai':
                     response = self._process_openai(image_url_1, image_url_2)
-                else:
+                elif self.config.api_type == 'claude':
                     response = self._process_claude(image_url_1, image_url_2)
-                    
+                elif self.config.api_type == 'gemini':
+                    response = self._process_gemini(image_url_1, image_url_2)
+                else:
+                    raise ValueError(f"Unknown api_type: {self.config.api_type}")
+
                 elapsed_time = round(time.time() - start_time)
                 return self._format_output(response, photo_id, elapsed_time)
             except Exception as e:
@@ -134,17 +158,53 @@ class ImageProcessor:
             }]
         )
 
+    def _process_gemini(self, url1: str, url2: str):
+        # Fetch image bytes
+        img1_bytes = httpx.get(url1).content
+        img2_bytes = httpx.get(url2).content
+
+        # Prepare image parts for Gemini API
+        img1_part = {"mime_type": "image/jpeg", "data": img1_bytes}
+        img2_part = {"mime_type": "image/jpeg", "data": img2_bytes}
+
+        prompt_parts = [
+            self.prompt + "\n\nPlease provide the result in a JSON format.",
+            img1_part,
+            img2_part
+        ]
+
+        # Specify JSON output format
+        generation_config = genai.types.GenerationConfig(
+            response_mime_type="application/json"
+        )
+
+        return self.client.generate_content(
+            prompt_parts,
+            generation_config=generation_config
+        )
+
     def _format_output(self, response, photo_id: str, request_time: int) -> Dict[str, Any]:
         if self.config.api_type == 'openai':
             input_tokens = response.usage.prompt_tokens
             output_tokens = response.usage.completion_tokens
             content = response.choices[0].message.content
-        else:
+            total_tokens = input_tokens + output_tokens
+        elif self.config.api_type == 'claude':
             input_tokens = response.usage.input_tokens
             output_tokens = response.usage.output_tokens
             content = response.content[0].text
+            total_tokens = input_tokens + output_tokens
+        elif self.config.api_type == 'gemini':
+            # Gemini token counts might be in usage_metadata
+            # Note: Gemini API might not always return token counts reliably for multimodal inputs yet.
+            # Using 0 as fallback if not present.
+            input_tokens = getattr(response.usage_metadata, 'prompt_token_count', 0)
+            output_tokens = getattr(response.usage_metadata, 'candidates_token_count', 0)
+            content = response.text
+            total_tokens = getattr(response.usage_metadata, 'total_token_count', input_tokens + output_tokens) # Use total if available
+        else:
+             raise ValueError(f"Unknown api_type for formatting: {self.config.api_type}")
 
-        total_tokens = input_tokens + output_tokens
         input_cost = (input_tokens / 1_000_000) * self.config.input_cost_per_million
         output_cost = (output_tokens / 1_000_000) * self.config.output_cost_per_million
 

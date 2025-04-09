@@ -1,0 +1,55 @@
+{
+  "photo_id": "32044157332826",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "title": "Piatti di M. Giorgio. Bologna dell' Emilia Bologna",
+        "artist": "M. Giorgio",
+        "date": "1532",
+        "inscriptions": "1532 M fr\u0101z de muiska",
+        "repository": {
+          "name": "Museo Civico",
+          "city": "Bologna",
+          "country": "IT"
+        },
+        "full_text": "N. 2618. Museo Civico. Piatti di M. Giorgio. Bologna dell' Emilia Bologna 1897"
+      },
+      "back": {
+        "title": "Birth of Adonis",
+        "additional_title": "design of Timoteo Viti",
+        "artist": {
+          "name": "Timoteo Viti",
+          "listed": true
+        },
+        "repository": {
+          "name": "Museo Civico",
+          "city": "BOLOGNA",
+          "country": "IT"
+        }
+      }
+    },
+    "photograph": {
+      "front": {
+        "photographer": {
+          "identifier": "2618"
+        }
+      },
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "front": "N. 2618. Museo Civico. Piatti di M. Giorgio. Bologna dell' Emilia Bologna 1897",
+      "back": [
+        "H VIII 1"
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 2404,
+  "total_tokens": 4161,
+  "cost": 0.02623625,
+  "status": "OK",
+  "request_time": 22
+}

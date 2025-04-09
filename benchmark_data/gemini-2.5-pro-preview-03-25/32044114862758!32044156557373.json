@@ -1,0 +1,73 @@
+{
+  "photo_id": "32044156557373",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "inscriptions": "ECCE AGNUS DEI ECCE QUI TOLLIT PECCATA MUNDI"
+      },
+      "back": {
+        "title": "St. John the Baptist & St. Catherine of Alexandria",
+        "artist": {
+          "name": "Paolo Veneziano",
+          "listed": true
+        },
+        "dimensions": {
+          "panel": {
+            "original": "30\"x 18 1/4\"",
+            "cm": "76.2cm x 46.4cm"
+          }
+        },
+        "repository": {
+          "name": "The Art Institute",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "US",
+          "identifier": "C998/, 47.116",
+          "gift": "Worcester Gift"
+        },
+        "materials": "Tempera on panel"
+      },
+      "history": {
+        "provenance": [
+          "Grimani Coll. Venice",
+          "Roerich Museum, New York",
+          "Roerich Sale, New York, 1930, March 28",
+          "Mr. & Mrs. Worcester"
+        ],
+        "exhibitions": [
+          "Chicago (CCI), Art Institute, 1930-31",
+          "Chicago (CCI), Art Institute, June 1 - Nov. 1 1933, no 87, cat.",
+          "Chicago (CCI), Art Institute, June 1 - Nov. 1 1934, no 85 cat."
+        ],
+        "attribution": [
+          "Roerich Sale Cat. F. J. Mather, Jr. (School of Lorenzo Veneziano)",
+          "Van Marle (Paolo Veneziano & his Sons)"
+        ],
+        "loans": [
+          "MR. AND MRS. C. H. WORCESTER COLLECTION"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": true
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "@998/",
+        "Photograph Department #1",
+        "Neg. No. C998/",
+        "(companion panel 'St. Augustine & St. Peter' was in the Roerich Sale, now property of Mrs. Catherine Barker Hickox New York? on loan at the Art Institute of Chicago)",
+        "If Published the following credit line must be added: Courtesy The Art Institute of Chicago."
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 1804,
+  "total_tokens": 3561,
+  "cost": 0.02023625,
+  "status": "OK",
+  "request_time": 19
+}

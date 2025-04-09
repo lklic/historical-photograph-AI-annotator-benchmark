@@ -1,0 +1,60 @@
+{
+  "photo_id": "32044156274409",
+  "model": "gemini-2.5-pro-preview-03-25",
+  "annotations": {
+    "artwork": {
+      "front": {
+        "artist": "Pietro Facini",
+        "inscriptions": "Pietro Facini; 39; P.L."
+      },
+      "back": {
+        "title": "Madonna + St Anthony",
+        "additional_title": "Madonna appearing to St Anthony",
+        "artist": {
+          "name": "Pietro Facini",
+          "listed": false
+        },
+        "dimensions": {
+          "artwork": {
+            "original": "12 1/2\" x 9 3/4\"",
+            "cm": "31.8cm x 24.8cm"
+          }
+        },
+        "repository": {
+          "name": "Fogg Art Museum",
+          "city": "CAMBRIDGE",
+          "state": "MA",
+          "country": "US",
+          "identifier": "1932.263",
+          "gift": "Charles A. Loeser Bequest"
+        },
+        "materials": "Pen & ink over red crayon"
+      },
+      "history": {
+        "provenance": [
+          "Loese Coll. (L. 2092)"
+        ],
+        "literature": [
+          "Mongan-Sachs cat. n. 84"
+        ]
+      }
+    },
+    "photograph": {
+      "back": {
+        "yellow_dot": false
+      }
+    },
+    "additional_annotations": {
+      "back": [
+        "Loeser 32.263",
+        "Inscribed at the bottom of the page: PIETRO FACINI"
+      ]
+    }
+  },
+  "input_tokens": 1757,
+  "output_tokens": 1697,
+  "total_tokens": 3454,
+  "cost": 0.01916625,
+  "status": "OK",
+  "request_time": 16
+}
