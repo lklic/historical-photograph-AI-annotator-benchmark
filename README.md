@@ -3,7 +3,9 @@
 ## [Preview of results](https://lklic.github.io/historical-photograph-AI-annotator-benchmark/static/)
 
 
-This project provides a framework for evaluating different AI models' performance in analyzing automated transcriptions from historical art photographs. It includes tools for processing images, comparing model outputs, and visualizing results through an interactive web interface.
+This project aims to evaluate different AI models' performance in analyzing automated transcriptions to structured data from historical art photographs. It includes tools for processing images, comparing model outputs, updating ground truth, and visualizing results through an interactive web interface.
+
+There is a static version for viewing on github in the directory '/static'. Installing it locally you can update ground truth files to tune model assesment/performance.
 
 Repository: [historical-photograph-AI-annotator-benchmark](https://github.com/lklic/historical-photograph-AI-annotator-benchmark)
 
@@ -22,6 +24,7 @@ The benchmark compares different AI models including:
 - gpt-4o-mini
 - o1
 - Claude 3.5 Sonnet
+- Gemeni 2.5 Preview
 
 ## Prerequisites
 
