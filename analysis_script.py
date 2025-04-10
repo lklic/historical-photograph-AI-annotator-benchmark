@@ -268,9 +268,8 @@ def analyze_images() -> Dict[str, Any]:
                     elif gt_exists and not model_exists:
                         statuses[model] = 'missing'
                     elif not gt_exists and model_exists:
-                        # Fields in model output but not in ground truth are now considered correct
-                        # This effectively removes the 'incorrect_field' category
-                        statuses[model] = 'correct'
+                        # Mark as incorrect if model provides a field absent in ground truth
+                        statuses[model] = 'incorrect_transcription'
                     else:
                         statuses[model] = 'correct' if are_values_equal(gt_value, model_value) else 'incorrect_transcription'
                     
